@@ -3,12 +3,14 @@
 This is about how to use [RubyMine] as your editor for the [Ruby on Rails Tutorial] version 3.2 by Michael Hartl. 
 
 * [Rails Tutorial Notes]
+* [Version Control] with Git
 * [RVM]
 * [Running Spork Server] 
 * [Convert to PostgreSQL]
 * [Additional References]
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
+[Version Control]: https://github.com/perfectionist/sample_project/wiki/vcs
 [RVM]: https://github.com/perfectionist/sample_project/wiki/rvm
 [Running Spork Server]: https://github.com/perfectionist/sample_project/wiki/Running-Spork-in-RubyMine
 [Convert to PostgreSQL]:  https://github.com/perfectionist/sample_project/wiki/Convert-to-PostgreSQL "COMING SOON!"
