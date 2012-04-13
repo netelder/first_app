@@ -18,12 +18,16 @@ The first step is to setup the [RubyMine] IDE to use the RVM defined ruby and ge
 
 To see the gem sets defined on your system use `rvm gemset list`:
 
+```shell
+
 	$ rvm gemset list
 	
 	gemsets for ruby-1.9.3-p125 (found in /Users/loeffler/.rvm/gems/ruby-1.9.3-p125)
 	   global
 	=> rails3tutorial2ndEd
 	   sasbook
+
+```
 
 The `rail3tutorial2ndEd` was defined following directions in [Ruby on Rails Tutorial].
 	
@@ -84,9 +88,12 @@ Default `Gemfile`
 	# To use debugger
 	# gem 'ruby-debug19', :require => 'ruby-debug' #
 ```
+
 **Note:** The file generated is slightly different that the one in the [rails tutorial][ruby on rails tutorial].
 
 After editing the `Gemfile` is:
+
+```ruby
 
 	source 'https://rubygems.org'
 	
@@ -104,7 +111,8 @@ After editing the `Gemfile` is:
 	end
 	
 	gem 'jquery-rails', '2.0.0'
-	
+
+```
 
 ### Run Bundler	 ###
 
