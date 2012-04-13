@@ -43,6 +43,8 @@ After creating a new rails application you can see the output that would normall
 
 Default `Gemfile`
 
+```ruby
+
 	source 'https://rubygems.org'
 	
 	gem 'rails', '3.2.3'
@@ -81,7 +83,7 @@ Default `Gemfile`
 	
 	# To use debugger
 	# gem 'ruby-debug19', :require => 'ruby-debug' #
-
+```
 **Note:** The file generated is slightly different that the one in the [rails tutorial][ruby on rails tutorial].
 
 After editing the `Gemfile` is:
