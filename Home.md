@@ -1,4 +1,6 @@
 Welcome to the sample_project wiki!
-[Running Spork Server 2](Running-Spork-in-RubyMine)
 
-[Running Spork Server]: Running-Spork-in-RubyMine
+* [Running Spork Server] 
+
+[Running Spork Server]: https://github.com/perfectionist/sample_project/wiki/Running-Spork-in-RubyMine
+
