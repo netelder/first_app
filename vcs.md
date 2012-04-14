@@ -59,6 +59,11 @@ It will then do the first push of the project up to [GitHub] and the transaction
 
 ![Version Control Console][github push log]
 
+[RVM]: http://beginrescueend.com/ "Ruby Version Manager"
+[Ruby]: http://www.ruby-lang.org/
+[install RVM]: https://rvm.beginrescueend.com/rvm/install/
+[RubyGems]: http://rubygems.org/
+[Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2 "Second Edition"
 [RubyMine]: http://www.jetbrains.com/ruby/
 [rubymine git reference]:http://www.jetbrains.com/ruby/webhelp/git-reference.html
 [cvs]:http://en.wikipedia.org/wiki/Concurrent_Versions_System
