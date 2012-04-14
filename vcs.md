@@ -2,6 +2,8 @@
 
 [RubyMine] handles several different version control system including [CVS], [Mercurial], [Subversion], [Perforce] and [Git].  Help can be found at the [RubyMine git reference].
 
+Here we setup a [git] repository and then create and push updates to a [GitHub] repository all inside the [RubyMine] IDE.
+
 ## Git ##
 
 You can put the project under `git` from within the IDE. Select **Import into Version Control** under the **VCS** menubar item and pick **Create Git Repository**.
@@ -65,6 +67,7 @@ It will then do the first push of the project up to [GitHub] and the transaction
 [RubyGems]: http://rubygems.org/
 [Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2 "Second Edition"
 [RubyMine]: http://www.jetbrains.com/ruby/
+[GitHub]:http/github.com
 [rubymine git reference]:http://www.jetbrains.com/ruby/webhelp/git-reference.html
 [cvs]:http://en.wikipedia.org/wiki/Concurrent_Versions_System
 [Mercurial]:http://en.wikipedia.org/wiki/Mercurial

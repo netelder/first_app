@@ -4,7 +4,7 @@ The instructions here are for the `first_app` but apply for the `sample_app` as 
 
 ## Creating First App in RubyMine ##
 
-These are notes about using RubyMIne to setup the **`first_app`** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intend is to show how to use [RubyMine] version 4 as the editor (and more) for the tutorial. 
+These are notes about using RubyMIne to setup the **`first_app`** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intent is to show how to use [RubyMine] version 4 as the editor (and more) for the tutorial. 
 
 This is the [RubyMine] menubar:
 
@@ -20,7 +20,7 @@ The first step is to setup the [RubyMine] IDE to use the [RVM] defined [ruby and
 
 To see the gem sets defined on your system use `rvm gemset list`:
 
-```shell
+```bash
 
 	$ rvm gemset list
 	
@@ -126,7 +126,7 @@ The installer will present another dialog for additional arguments to run with *
 
 ![Bundler install dialog]
 
-In our case there are no additional arguments.
+In our case there are no additional arguments. *Pay attention to other the other apps in the tutorial where there is an argument.* 
 
 
 ### Run Server ###
@@ -139,7 +139,7 @@ This brings up a selection where you can create custom run configurations or pic
 
 ![Rails Server Dialog]
 
-The web site for `localhost:3000` shows the **Welcome aboard** page indicating success.
+The web site for [`localhost:3000`](http://localhost:3000/) shows the **Welcome aboard** page indicating success.
 
 ![first project web site]
 
