@@ -4,7 +4,7 @@ The instructions here are for the `first_app` but apply for the `sample_app` as 
 
 ## Creating First App in RubyMine ##
 
-These are notes about using RubyMIne to setup the **first_app** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intend is to show how to use [RubyMine] version 4 as the editor (and more) for the tutorial. 
+These are notes about using RubyMIne to setup the **`first_app`** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intend is to show how to use [RubyMine] version 4 as the editor (and more) for the tutorial. 
 
 This is the [RubyMine] menubar:
 
@@ -14,7 +14,7 @@ I will be referring to menubar items below, especially the **RubyMine**, **File*
 
 ### Setup IDE ###
 
-The first step is to setup the [RubyMine] IDE to use the RVM defined ruby and gemset. Open the **Preferences** under the **RubyMine** in the menubar. The **Ruby Interpreter** has a drop down menu with RVM gemsets defined on your system.  Pick the that was defined for the tutorial.  
+The first step is to setup the [RubyMine] IDE to use the [RVM] defined [ruby and gemset](rvm). Open the **Preferences** under the **RubyMine** in the menubar. The **Ruby Interpreter** has a drop down menu with RVM gemsets defined on your system.  Pick the that was defined for the tutorial.  
 
 ![Figure 2. Setting Ruby version and Gemset in Preferences][Setting Ruby and Gems]
 
@@ -170,3 +170,4 @@ The bottom section of the [RubyMine] IDE displays the server log file.
 [rvm empty]: http://beginrescueend.com/gemsets/emptying/
 [RubyMine]: http://www.jetbrains.com/ruby/
 [GitHub]: http://github.com "GitHub"
+[RVM]: http://beginrescueend.com/
