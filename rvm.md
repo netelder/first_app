@@ -260,3 +260,5 @@ Now to install rails 3.2.3.
 [RVM]:http://beginrescueend.com/
 [Rails 3.2.3]: http://weblog.rubyonrails.org/2012/3/30/ann-rails-3-2-3-has-been-released/
 [rubygems]: http://rubygems.org/
+[rvm delete]:http://beginrescueend.com/gemsets/deleting/
+[rvm empty]:http://beginrescueend.com/gemsets/emptying/
