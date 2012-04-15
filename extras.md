@@ -15,3 +15,5 @@ PNG
 SVG (remove yFile using Inkscape)
 
 ![SVG](images/ExportedDemoModelProjectSvg.svg)
+
+<object data="images/ExportedDemoModelProjectSvg.svg" type="image/svg+xml" width="100%"/> 
