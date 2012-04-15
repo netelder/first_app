@@ -14,4 +14,4 @@ PNG
 
 SVG (remove yFile using Inkscape)
 
-![SVG](ExportedDemoModelProjectSvg.svg)
+![SVG](images/ExportedDemoModelProjectSvg.svg)
