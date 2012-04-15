@@ -9,6 +9,7 @@ Some of the discussion I have here is for the early apps but it is extremely eas
 * [RVM] and how easy to upgrade to newer version of [Rails on Rails].
 * [Running Spork Server] inside [RubyMine]
 * [Convert to PostgreSQL] Coming soon.
+* [Extras](extras)
 * [Additional References]
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
