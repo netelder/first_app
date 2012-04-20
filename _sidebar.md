@@ -4,7 +4,7 @@
 	* [[Install Ruby|rvm#wiki-ruby]]
 	* [[Define Gemset|rvm#wiki-gemset]]
 	* [[Install Rails|rvm#wiki-installrails]]
-	* [[Update Rails|rvm#wiki-updaterails]]
+	* [[Update Rails to 3.2.3|rvm#wiki-update]]
 * Setup RubyMine
 * Git
 * Using PostgreSQL
