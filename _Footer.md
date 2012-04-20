@@ -1,2 +1,2 @@
---------------------
-[mailto: loeffler@mac.com] David Loeffler 
+
+[mailto:loeffler@mac.com] David Loeffler 
