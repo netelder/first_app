@@ -1,10 +1,10 @@
 #### Page Links ####
-* [[Ruby Version Manager|vcs]]
-	* [[Installing RVMvcs#wiki-install]]
-	* [[Install Ruby|vcs#wiki-ruby]]
-	* [[Define Gemset|vcs#wiki-gemset]]
-	* [[Install Rails|vcs#wiki-installrails]]
-	* [[Update Rails to 3.2.3|vcs#wiki-update]]
+* [[Ruby Version Manager|rvm]]
+	* [[Installing RVM|rvm#wiki-install]]
+	* [[Install Ruby|rvm#wiki-ruby]]
+	* [[Define Gemset|rvm#wiki-gemset]]
+	* [[Install Rails|rvm#wiki-installrails]]
+	* [[Update Rails to 3.2.3|rvm#wiki-update]]
 * Setup RubyMine
 * Git
 * Using PostgreSQL
