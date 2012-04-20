@@ -2,12 +2,6 @@
 
 Use of RVM (Ruby Version Manager) allows us to work several Ruby and Rails projects that may require different versions ruby, rails and gems. One interesting thing happened while I was working on the tutorial.  Michael changed the version of Rails to 3.2.3 and there is a trick with RVM that makes this easy to do.
 
-* [Installing RVM](#install)
-* [Install Ruby](#ruby)
-* [Define Gemset](#gemset)
-* [Install Rails](#installrails)
-* [Update Rails](#updaterails)
-
 <a name="install"/>
 ## Installing RVM ##
 
