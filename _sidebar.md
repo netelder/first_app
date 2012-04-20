@@ -1,5 +1,5 @@
 #### Page Links ####
-* [Ruby Version Manager](rvm)
+* [[Ruby Version Manager|rvm]]
 	* [Installing RVM](rvm#install)
 	* [Install Ruby](rvm#ruby)
 	* [Define Gemset](rvm#gemset)
