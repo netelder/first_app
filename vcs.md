@@ -3,9 +3,10 @@
 [RubyMine] handles several different version control system including [CVS], [Mercurial], [Subversion], [Perforce] and [Git].  Help can be found at the [RubyMine git reference].
 
 Here we setup a [git] repository and then create and push updates to a [GitHub] repository all inside the [RubyMine] IDE.
-
+<a name="git"></a>
 ## Git ##
 
+<a name="gitinitial"></a>
 ### Initial Setup ###
 
 
@@ -21,6 +22,7 @@ In the bottom part of the [RubyMine] IDE is the version control console. This sh
 
 ![git init log]
 
+<a name="gitadding"></a>
 ### Adding Changes ###
 
 
@@ -44,8 +46,10 @@ The **Version Control Console** shows the result of the commit.
 
 ![git commit log]
 
+<a name="gitbranch"></a>
 ### Creating a Branch ###
 
+<a name="gitmerge"></a>
 ### Merging Branch in Master ###
 
 In git you should do your work in a branch then switch back to the master branch and merge your changes.  In my opinion this is a good idea even if you are working alone. See [Ruby on Rails Tutorial git Merge notes] and [Pro Git rebase] for more info on `merge` and the alternative `rebase`.  See [RubyMine rebase support] in their online help for 
@@ -68,7 +72,8 @@ After the merge you can see a summary of the merge operation. In this part of th
 
 ![Merge1](images/GitBranchMerge5.png)
 
-### Delete Branch ###
+<a name="gitdeletebranch"></a>
+### Deleting Branch ###
 
 I find it useful to create a branch, make my changes then merge back into master. Afterward I usually clean up the repository by deleting the branch. See [Ruby on Rails Tutorial git Merge notes].
 
@@ -80,6 +85,7 @@ You will be presented a list of branches.  In this case we want to remove the `s
 
 ![Delete git branch] (images/DeletingBranchStep2.png)
 
+<a name="github"></a>
 ## GitHub ##
 
 ### Initial Setup ###
@@ -108,7 +114,7 @@ It will then do the first push of the project up to [GitHub] and the transaction
 ### Pushing to GitHub ###
 
 
-
+<a name="heroku"></a>
 ## Heroku ##
 
 ### Initial Setup ###
