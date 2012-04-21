@@ -19,7 +19,6 @@ The version of [RVM] installed is:
 ```
 
 <a name="ruby"></a>
-
 ## Install Ruby ##
 
 
@@ -67,7 +66,7 @@ Checking the version and location of `gem`
 
 ```
 
-<div id="installrails"/>
+<a name="installrails"></a>
 ## Install Rails ##
 
 

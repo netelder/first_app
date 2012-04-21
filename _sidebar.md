@@ -5,7 +5,7 @@
 	* [[Define Gemset|rvm#wiki-gemset]]
 	* [[Install Rails|rvm#wiki-installrails]]
 	* [[Update Rails to 3.2.3|rvm#wiki-update]]
-* Setup RubyMine
+* [[Setup RubyMine|Rails Tutorial Notes]]
 * [[Using Git Version Control System|vcs]]
 	* [[Git|vcs#wiki-git]]
 		* [[Initial Setup|vcs#wiki-gitinitial]] 
@@ -14,6 +14,10 @@
 		* [[Merging a Branch|vcs#wiki-gitmerge]]
 		* [[Deleting a Branch|vcs#wiki-gitdeletebranch]]
 	* [[GitHub|vcs#wiki-github]]
-	* [[Heroku|vcs#heroku]]
+		* [[Initial Setup|vcs#wiki-githubinitial]]
+		* [[Pushing to GitHub|vcs#wiki-githubpush]]
+	* [[Heroku|vcs#wiki-heroku]]
+		* [[Initial Setup|vcs#wiki-herokuinitial]]
+		* [[Pushing to Heroku|vcs#wiki-herokupush]]
 * Using PostgreSQL
 * Extras

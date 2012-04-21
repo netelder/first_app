@@ -1,16 +1,26 @@
 # Welcome to the sample_project wiki! #
 
-This is about how to use [RubyMine] as your editor for the [Ruby on Rails Tutorial] version 3.2 by Michael Hartl. The tutorial covers three applications.  The first one is very simple, the second has some active record stuff but the three is a full blown application with lots of good stuff to learn from. I highly recommend Michael's work over any other tutorial that I have seen especially because of the depth it goes into as well as breadth.
+This is about how to use [RubyMine] as your editor for the [Ruby on Rails Tutorial] version 3.2 by Michael Hartl. The tutorial covers three applications.  The `first_app` is very simple, the second, `demo_app` has some active record stuff but the third `sample_app` is a full blown application with lots of good stuff to learn from. I highly recommend Michael's work over any other tutorial that I have seen especially because of the depth it goes into as well as breadth.
 
 Some of the discussion I have here is for the early apps but it is extremely easy to extend to other apps where easy is just change the app name when filling in new project dialog.
 
-* [Setting up RubyMIne IDE][Rails Tutorial Notes].
+* [Setting up RubyMIne IDE][Rails Tutorial Notes]. 
 * [Version Control] with Git using [RubyMine]
 * [RVM] and how easy to upgrade to newer version of [Rails on Rails].
 * [Running Spork Server] inside [RubyMine]
 * [Convert to PostgreSQL] Coming soon.
 * [Extras](wiki/extras)
 * [Additional References]
+
+Version 4.0.3:
+
+    Significantly sped-up
+    New, streamlined UI
+    Latest Rails 3.2 support 
+
+http://youtrack.jetbrains.com/releaseNotes?q=fixed+in%3A+%7BRubyMine+4.0.3+RC+%28build+117.159%29%7D+fixed+in%3A+%7BRubyMine+4.0.3%7D+state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+sort+by%3A+priority&token=1iose10go2jemmny1xrhcsdo2&verbose=false
+
+http://blog.jetbrains.com/ruby/2012/04/rubymine-4-0-3-update-is-available/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+jetbrains_rubymine+%28JetBrains+RubyMine+Blog%29
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
 [Version Control]: https://github.com/perfectionist/sample_project/wiki/vcs

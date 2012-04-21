@@ -88,6 +88,7 @@ You will be presented a list of branches.  In this case we want to remove the `s
 <a name="github"></a>
 ## GitHub ##
 
+<a name="githubinitial"></a>
 ### Initial Setup ###
 
 
@@ -111,14 +112,17 @@ It will then do the first push of the project up to [GitHub] and the transaction
 
 ![Version Control Console][github push log]
 
+<a name="githubpush"></a>
 ### Pushing to GitHub ###
 
 
 <a name="heroku"></a>
 ## Heroku ##
 
+<a name="herokuinitial"></a>
 ### Initial Setup ###
 
+<a name="herokupush"></a>
 ### Pushing to Heroku ###
 
 

@@ -28,6 +28,24 @@ SVG (remove yFile using Inkscape)
 
 <object data="images/ExportedDemoModelProjectSvg.svg" type="image/svg+xml" width="100%"/> 
 
+## Keyboard Mapping ##
+
+http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard_Mac.pdf
+
+http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard.pdf
+
+## Online Help ##
+
+http://www.jetbrains.com/ruby/webhelp/getting-help.html
+
+## Reformat Code ##
+
+![Reformat Menu](images/ReformatCodeMenu.png)
+
+![Reformat Menu](images/ReformatCodeDialog.png)
+
+![Reformat Menu](images/ReformatCodeFinished.png)
+
 
 [RubyMine]: http://www.jetbrains.com/ruby/ "Ruby on Rails IDE"
 [Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ "Rails Tutorial"
