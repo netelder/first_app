@@ -6,6 +6,7 @@
 	* [[Install Rails|rvm#wiki-installrails]]
 	* [[Update Rails to 3.2.3|rvm#wiki-update]]
 * [[Setup RubyMine|Rails Tutorial Notes|Rails Tutorial Notes]]
+	* [[Setup IDE|Rails Tutorial Notes#setup]]
 * [[Using Git Version Control System|vcs]]
 	* [[Git|vcs#wiki-git]]
 		* [[Initial Setup|vcs#wiki-gitinitial]] 

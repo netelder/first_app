@@ -12,15 +12,9 @@ Some of the discussion I have here is for the early apps but it is extremely eas
 * [Extras](wiki/extras)
 * [Additional References]
 
-Version 4.0.3:
+04/20/2012 RubyMine version 4.0.3 installed and it included several
+[bug fixes](http://youtrack.jetbrains.com/releaseNotes?q=fixed+in%3A+%7BRubyMine+4.0.3+RC+%28build+117.159%29%7D+fixed+in%3A+%7BRubyMine+4.0.3%7D+state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+sort+by%3A+priority&token=1iose10go2jemmny1xrhcsdo2&verbose=false).
 
-    Significantly sped-up
-    New, streamlined UI
-    Latest Rails 3.2 support 
-
-http://youtrack.jetbrains.com/releaseNotes?q=fixed+in%3A+%7BRubyMine+4.0.3+RC+%28build+117.159%29%7D+fixed+in%3A+%7BRubyMine+4.0.3%7D+state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+sort+by%3A+priority&token=1iose10go2jemmny1xrhcsdo2&verbose=false
-
-http://blog.jetbrains.com/ruby/2012/04/rubymine-4-0-3-update-is-available/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+jetbrains_rubymine+%28JetBrains+RubyMine+Blog%29
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
 [Version Control]: https://github.com/perfectionist/sample_project/wiki/vcs
