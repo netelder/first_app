@@ -2,7 +2,7 @@
 
 Use of RVM (Ruby Version Manager) allows us to work several Ruby and Rails projects that may require different versions ruby, rails and gems. One interesting thing happened while I was working on the tutorial.  Michael changed the version of Rails to 3.2.3 and there is a trick with RVM that makes this easy to do.
 
-[[foo|#install]]
+<div id="install" />
 ## Installing RVM ##
 
 
@@ -18,7 +18,8 @@ The version of [RVM] installed is:
     rvm 1.11.3 () by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> 
 ```
 
-<a name="ruby"/>
+<div id="ruby" />
+
 ## Install Ruby ##
 
 
@@ -41,17 +42,10 @@ Now check the ruby gems that you get by default
 	rvm (1.11.3.3)
 ```
 
-Now a quick check of the latest version at [RubyGems]
-
-```ruby
-	bundler          => 1.1.3
-	rake             => 0.9.2.2
-	rubygems-bundler => 0.2.8
-	rvm              => 1.11.3.3
- ```
+Now a quick check of the latest version at [RubyGems] shows these are the latest versions (as of April 21, 2012).
 
 
-<a name="gemset"/>
+<div id="gemset"/>
 ## Define Gemset ##
 
 
@@ -73,7 +67,7 @@ Checking the version and location of `gem`
 
 ```
 
-<a name="installrails"/>
+<div id="installrails"/>
 ## Install Rails ##
 
 
@@ -162,7 +156,7 @@ Check version of `rails`:
 
 Now we are ready to create our applications.
 
-<a name="update"/>
+<div id="update"/>
 ## Update Rails (March 31, 2012) ##
 
 Michael has updated the [Ruby on Rails Tutorial] to use [Rails 3.2.3] for reasons given in this [posting](http://news.ycombinator.com/item?id=3781233  "accessible via mass assignment") .
