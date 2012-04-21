@@ -29,7 +29,8 @@ gemsets for ruby-1.9.3-p125 (found in /Users/loeffler/.rvm/gems/ruby-1.9.3-p125)
 ```
 
 The `rail3tutorial2ndEd` was defined following directions in [Ruby on Rails Tutorial].
-	
+
+<a name="first app"></a>
 ## Create First Application ##
 
 Unlike the tutorial a new Rails application can be created inside the IDE.  I use `first_project` instead of `first_app`. This was done to keep the work with [Sublime] separate from [RubyMine].
@@ -42,7 +43,8 @@ After creating a new rails application you can see the output that would normall
 
 ![First Project]
 
-### Modify Gemfile ###
+<a name="gemfile"></a>
+## Modify Gemfile ##
 
 Default `Gemfile`
 
@@ -112,8 +114,8 @@ After editing the `Gemfile` is:
 	gem 'jquery-rails', '2.0.0'
 
 ```
-
-### Run Bundler	 ###
+<a name="bundler"></a>
+## Run Bundler ##
 
 To run the **bundler** select it under the **Tools** menubar item.
 
@@ -125,8 +127,8 @@ The installer will present another dialog for additional arguments to run with *
 
 In our case there are no additional arguments. *Pay attention to other the other apps in the tutorial where there is an argument.* 
 
-
-### Run Server ###
+<a name="server"></a>
+## Start Server ##
 
 The rails server can be started from inside [RubyMine]. Just select **Run** from menubar and then either select **Run 'Development: first_project'** or **Run…**.  (Remember I named my app `first_project` not `first_app`.)  Here I chose the later.
 
