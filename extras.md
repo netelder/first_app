@@ -1,5 +1,6 @@
 # Extras #
 
+<a name="modeldiagrams"></a>
 ## Model Diagrams ##
 
 It is easy to create a data model diagram with [RubyMine].  Here I'll do the model for the **demo_app** in the [Ruby on Rails Tutorial] in [chapter 2].  This app has just 2 models: `user` and `micropost`.  Just pick the **View** item in the RubyMine menu bar (shown below).
@@ -28,16 +29,19 @@ SVG (remove yFile using Inkscape)
 
 <object data="images/ExportedDemoModelProjectSvg.svg" type="image/svg+xml" width="100%"/> 
 
+<a name="keys"></a>
 ## Keyboard Mapping ##
 
 http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard_Mac.pdf
 
 http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard.pdf
 
+<a name="help"></a>
 ## Online Help ##
 
 http://www.jetbrains.com/ruby/webhelp/getting-help.html
 
+<a name="reformat"></a>
 ## Reformat Code ##
 
 ![Reformat Menu](images/ReformatCodeMenu.png)

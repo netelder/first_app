@@ -2,8 +2,6 @@
 
 The instructions here are for the `first_app` but apply for the `sample_app` as well. Just be sure to follow [Ruby on Rails Tutorial] instructions for `Gemfile`
 
-## Creating First App in RubyMine ##
-
 These are notes about using RubyMIne to setup the **`first_app`** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intent is to show how to use [RubyMine] version 4 as the editor (and more) for the tutorial. 
 
 This is the [RubyMine] menubar:
@@ -12,7 +10,8 @@ This is the [RubyMine] menubar:
 
 I will be referring to menubar items below, especially the **RubyMine**, **File** , **Run**, **Tools**, and **VCS** tabs.
 
-### Setup IDE ###
+<a name="setup"></a>
+## Setup IDE ##
 
 The first step is to setup the [RubyMine] IDE to use the [RVM] defined [ruby and gemset](rvm). Open the **Preferences** under the **RubyMine** in the menubar. The **Ruby Interpreter** has a drop down menu with RVM gemsets defined on your system.  Pick the that was defined for the tutorial.  
 
@@ -21,19 +20,17 @@ The first step is to setup the [RubyMine] IDE to use the [RVM] defined [ruby and
 To see the gem sets defined on your system use `rvm gemset list`:
 
 ```bash
+$ rvm gemset list
 
-	$ rvm gemset list
-	
-	gemsets for ruby-1.9.3-p125 (found in /Users/loeffler/.rvm/gems/ruby-1.9.3-p125)
-	   global
-	=> rails3tutorial2ndEd
-	   sasbook
-
+gemsets for ruby-1.9.3-p125 (found in /Users/loeffler/.rvm/gems/ruby-1.9.3-p125)
+   global
+=> rails3tutorial2ndEd
+   sasbook
 ```
 
 The `rail3tutorial2ndEd` was defined following directions in [Ruby on Rails Tutorial].
 	
-### Create First Application ###
+## Create First Application ##
 
 Unlike the tutorial a new Rails application can be created inside the IDE.  I use `first_project` instead of `first_app`. This was done to keep the work with [Sublime] separate from [RubyMine].
 

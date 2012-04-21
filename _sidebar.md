@@ -5,7 +5,7 @@
 	* [[Define Gemset|rvm#wiki-gemset]]
 	* [[Install Rails|rvm#wiki-installrails]]
 	* [[Update Rails to 3.2.3|rvm#wiki-update]]
-* [[Setup RubyMine|Rails Tutorial Notes]]
+* [[Setup RubyMine|Rails Tutorial Notes|Rails Tutorial Notes]]
 * [[Using Git Version Control System|vcs]]
 	* [[Git|vcs#wiki-git]]
 		* [[Initial Setup|vcs#wiki-gitinitial]] 
@@ -19,5 +19,9 @@
 	* [[Heroku|vcs#wiki-heroku]]
 		* [[Initial Setup|vcs#wiki-herokuinitial]]
 		* [[Pushing to Heroku|vcs#wiki-herokupush]]
-* Using PostgreSQL
-* Extras
+* [[Using PostgreSQL|Convert to PostgreSQL]]
+* [[Extras|extras]]
+	* [[Model Diagrams|extras#wiki-modeldiagrams]]
+	* [[Keyboard Mappings|extras#wiki-keys]]
+	* [[Online Help|extras#wiki-help]]
+	* [[Reformat Code|extras#wiki-reformat]]

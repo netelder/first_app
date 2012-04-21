@@ -33,12 +33,12 @@ Now to install [Ruby].  The default ruby version is 1.9.3-p0 but I wanted the la
 Now check the ruby gems that you get by default
 
 ```bash
-    $ gem list	
-		*** LOCAL GEMS ***		
-	bundler (1.1.3)
-	rake (0.9.2.2, 0.9.2)
-	rubygems-bundler (0.2.8)
-	rvm (1.11.3.3)
+$ gem list	
+	*** LOCAL GEMS ***		
+bundler (1.1.3)
+rake (0.9.2.2, 0.9.2)
+rubygems-bundler (0.2.8)
+rvm (1.11.3.3)
 ```
 
 Now a quick check of the latest version at [RubyGems] shows these are the latest versions (as of April 21, 2012).
