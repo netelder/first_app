@@ -2,24 +2,20 @@
 
 Use of RVM (Ruby Version Manager) allows us to work several Ruby and Rails projects that may require different versions ruby, rails and gems. One interesting thing happened while I was working on the tutorial.  Michael changed the version of Rails to 3.2.3 and there is a trick with RVM that makes this easy to do.
 
-<a name="install"/>
+[[install]]
 ## Installing RVM ##
 
 
 To [install RVM] on my Mac I followed the directions on the [RVM] site. Since I already had RVM installed I just asked RVM to install the `head` version then reload itself.
 
 ```bash
-
     $ rvm get head && rvm reload
-
 ```
 
 The version of [RVM] installed is:
  
 ```bash
-   
-    rvm 1.11.3 () by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.beginrescueend.com/]
-
+    rvm 1.11.3 () by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> 
 ```
 
 <a name="ruby"/>
@@ -29,38 +25,31 @@ The version of [RVM] installed is:
 Now to install [Ruby].  The default ruby version is 1.9.3-p0 but I wanted the latest (at the time of this writing).
 
 ```bash
-
     $ rvm install 1.9.3-p125
     $ ruby --version
     ruby 1.9.3p125 (2012-02-16 revision 34643) [x86_64-darwin11.3.0]
-
 ```
 
 Now check the ruby gems that you get by default
 
 ```bash
-
-    $ gem list
-		
-		*** LOCAL GEMS ***
-		
+    $ gem list	
+		*** LOCAL GEMS ***		
 	bundler (1.1.3)
 	rake (0.9.2.2, 0.9.2)
 	rubygems-bundler (0.2.8)
 	rvm (1.11.3.3)
-
 ```
 
 Now a quick check of the latest version at [RubyGems]
 
 ```ruby
-
 	bundler          => 1.1.3
 	rake             => 0.9.2.2
 	rubygems-bundler => 0.2.8
 	rvm              => 1.11.3.3
-
  ```
+
 
 <a name="gemset"/>
 ## Define Gemset ##
@@ -69,10 +58,8 @@ Now a quick check of the latest version at [RubyGems]
 Setup a gem set
 
 ```bash
-
 	$ rvm use 1.9.3-p125@rails3tutorial2ndEd --create --default
 	Using /Users/loeffler/.rvm/gems/ruby-1.9.3-p125 with gemset rails3tutorial2ndEd
-
 ```
 
 Checking the version and location of `gem`
@@ -256,3 +243,4 @@ Now to install rails 3.2.3.
 [rubygems]: http://rubygems.org/
 [rvm delete]:http://beginrescueend.com/gemsets/deleting/
 [rvm empty]:http://beginrescueend.com/gemsets/emptying/
+[Ruby]: http://www.ruby-lang.org/
