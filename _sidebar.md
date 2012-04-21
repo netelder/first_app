@@ -11,7 +11,7 @@
 	* [[Modify Gemfile|Rails Tutorial Notes#wiki-gemfile]]
 	* [[Run Bundler|Rails Tutorial Notes#wiki-bundler]]
 	* [[Start Server|Rails Tutorial Notes#wiki-server]]
-* [[Using Git Version Control System|vcs]]
+* [[Using Git in RubyMine|vcs]]
 	* [[Git|vcs#wiki-git]]
 		* [[Initial Setup|vcs#wiki-gitinitial]] 
 		* [[Adding Changes|vcs#wiki-gitadding]]

@@ -1,4 +1,4 @@
-# Using Git Version Control System #
+# Using Git In RubyMine #
 
 [RubyMine] handles several different version control system including [CVS], [Mercurial], [Subversion], [Perforce] and [Git].  Help can be found at the [RubyMine git reference].
 
@@ -48,6 +48,22 @@ The **Version Control Console** shows the result of the commit.
 
 <a name="gitbranch"></a>
 ### Creating a Branch ###
+
+To create a new branch just click on **VCS** menubar item and select **Branches**
+
+![Merge Branches](images/GitBranchMerge1.png)
+
+Select **New Branch** from the popup window
+
+![Create New Branch](images/CreateNewBranch1.png)
+
+Fill in the name for the new branch and click **OK**
+
+![Name New Branch](images/CreateNewBranch2.png)
+
+RubyMine will create the new git branch and check it out.  See bottom of IDE for confirmation.
+
+![Confirmation of New Branch](images/CreateNewBranch3.png)
 
 <a name="gitmerge"></a>
 ### Merging Branch in Master ###
@@ -114,7 +130,7 @@ It will then do the first push of the project up to [GitHub] and the transaction
 
 <a name="githubpush"></a>
 ### Pushing to GitHub ###
-
+	
 
 <a name="heroku"></a>
 ## Heroku ##
