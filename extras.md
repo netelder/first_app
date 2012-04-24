@@ -23,18 +23,26 @@ The PNG format is shown below. **Note:** the **Powered by yFiles** label on the 
 
 ![Exported Demo Model Diagram](images/DemoExportDiagram.png)
 
-SVG (remove yFile using Inkscape)
+If you export with SVG option you should be able to remove the **Powered by yFile** label.  I removed it using Inkscape.  SVG image may not appear on this wiki.
 
 ![SVG](images/ExportedDemoModelProjectSvg.svg)
 
-<object data="images/ExportedDemoModelProjectSvg.svg" type="image/svg+xml" width="100%"/> 
+
 
 <a name="keys"></a>
 ## Keyboard Mapping ##
 
-http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard_Mac.pdf
+Keymap for Mac, to be nice, is *odd*, for example:
 
-http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard.pdf
+* **&#8984; P** is Parameter info (within method call arguments) not Print
+* **&#8984; N** is Go to Class not New File 
+* **^N** is New File not Next Line
+
+To name just a couple.  
+
+Mac Keymap ([PDF](http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard_Mac.pdf))
+
+Windows Keymap ([PDF](http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard.pdf))
 
 <a name="help"></a>
 ## Online Help ##

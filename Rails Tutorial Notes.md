@@ -8,7 +8,12 @@ This is the [RubyMine] menubar:
 
 ![Figure 1. RubyMine Menubar][RubyMine Menubar]
 
-I will be referring to menubar items below, especially the **RubyMine**, **File** , **Run**, **Tools**, and **VCS** tabs.
+I will be referring to menubar items below, especially the
+**RubyMine**, **File** , **Run**, **Tools**, and **VCS** tabs.
+
+**Important Note**
+It seems [RubyMine]'s memory footprint grows the longer I leave it
+open. I
 
 <a name="setup"></a>
 ## Setup IDE ##
@@ -35,7 +40,7 @@ The `rail3tutorial2ndEd` was defined following directions in [Ruby on Rails Tuto
 
 Unlike the tutorial a new Rails application can be created inside the IDE.  I use `first_project` instead of `first_app`. This was done to keep the work with [Sublime] separate from [RubyMine].
 
-To create a new project select **New Project…** under the **File** menubar item.  Fill in the **Project name** and you can change **Location** but you need to select **Rails application** for the **Project type**.
+To create a new project select **New Project...** under the **File** menubar item.  Fill in the **Project name** and you can change **Location** but you need to select **Rails application** for the **Project type**.
 
 ![New Project Dialog]
 
@@ -49,7 +54,6 @@ After creating a new rails application you can see the output that would normall
 Default `Gemfile`
 
 ```ruby
-
 	source 'https://rubygems.org'
 	
 	gem 'rails', '3.2.3'
@@ -95,7 +99,6 @@ Default `Gemfile`
 After editing the `Gemfile` is:
 
 ```ruby
-
 	source 'https://rubygems.org'
 	
 	gem 'rails', '3.2.3'
@@ -112,8 +115,8 @@ After editing the `Gemfile` is:
 	end
 	
 	gem 'jquery-rails', '2.0.0'
-
 ```
+
 <a name="bundler"></a>
 ## Run Bundler ##
 

@@ -2,7 +2,7 @@
 
 This is about how to use [RubyMine] as your editor for the [Ruby on Rails Tutorial] version 3.2 by Michael Hartl. The tutorial covers three applications.  The `first_app` is very simple, the second, `demo_app` has some active record stuff but the third `sample_app` is a full blown application with lots of good stuff to learn from. I highly recommend Michael's work over any other tutorial that I have seen especially because of the depth it goes into as well as breadth.
 
-Some of the discussion I have here is for the early apps but it is extremely easy to extend to other apps where easy is just change the app name when filling in new project dialog.
+Some of the discussion I have here is for the earlier apps but it is extremely easy to extend to other apps where easy is just change the app name when filling in new project dialog.
 
 * [Setting up RubyMIne IDE][Rails Tutorial Notes]. 
 * [Version Control] with Git using [RubyMine]
@@ -12,8 +12,8 @@ Some of the discussion I have here is for the early apps but it is extremely eas
 * [Extras](wiki/extras)
 * [Additional References]
 
-04/20/2012 RubyMine version 4.0.3 installed and it included several
-[bug fixes](http://youtrack.jetbrains.com/releaseNotes?q=fixed+in%3A+%7BRubyMine+4.0.3+RC+%28build+117.159%29%7D+fixed+in%3A+%7BRubyMine+4.0.3%7D+state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+sort+by%3A+priority&token=1iose10go2jemmny1xrhcsdo2&verbose=false).
+### FLASH ###
+**04/20/2012** [RubyMine] version 4.0.3 released and includes several [bug fixes].
 
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
@@ -26,3 +26,4 @@ Some of the discussion I have here is for the early apps but it is extremely eas
 [Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2 "Second Edition"
 [RubyMine]: http://www.jetbrains.com/ruby/
 [Ruby on Rails]: http://rubyonrails.org/
+[bug fixes]:http://youtrack.jetbrains.com/releaseNotes?q=fixed+in%3A+%7BRubyMine+4.0.3+RC+%28build+117.159%29%7D+fixed+in%3A+%7BRubyMine+4.0.3%7D+state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+sort+by%3A+priority&token=1iose10go2jemmny1xrhcsdo2&verbose=false
