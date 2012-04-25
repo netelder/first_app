@@ -23,9 +23,9 @@ The PNG format is shown below. **Note:** the **Powered by yFiles** label on the 
 
 ![Exported Demo Model Diagram](images/DemoExportDiagram.png)
 
-If you export with SVG option you should be able to remove the **Powered by yFile** label.  I removed it using Inkscape.  SVG image may not appear on this wiki.
+If you export with SVG option you should be able to remove the **Powered by yFile** label.  I removed it using [Inkscape].  SVG image may not appear on this wiki so download the [SVG](images/ExportedDemoModelProjectSvg.svg) here.  Here it is converted to PNG
 
-![SVG](images/ExportedDemoModelProjectSvg.svg)
+![SVG Converted to PNG](images/g3646.png)
 
 
 
@@ -38,7 +38,7 @@ Keymap for Mac, to be nice, is *odd*, for example:
 * **&#8984; N** is Go to Class not New File 
 * **^N** is New File not Next Line
 
-To name just a couple.  
+To name just a few.  
 
 Mac Keymap ([PDF](http://www.jetbrains.com/ruby/docs/RubyMine_ReferenceCard_Mac.pdf))
 
@@ -64,3 +64,4 @@ http://www.jetbrains.com/ruby/webhelp/getting-help.html
 [chapter 2]: http://ruby.railstutorial.org/chapters/a-demo-app?version=3.2#top
 [Model Dependency Diagram video]: http://www.jetbrains.com/ruby/demos/rubymine_model_diagram.html
 [GitHub]: http://www.github.com/ "GitHub"
+[inkscape]:http://inkscape.org/
