@@ -25,6 +25,8 @@
 		* [[Initial Setup|vcs#wiki-herokuinitial]]
 		* [[Pushing to Heroku|vcs#wiki-herokupush]]
 * [[Using PostgreSQL|Convert to PostgreSQL]]
+* [[Data Model|datamodel]]
+* [[Rails Console|railsConsole]]
 * [[Extras|extras]]
 	* [[Model Diagrams|extras#wiki-modeldiagrams]]
 	* [[Keyboard Mappings|extras#wiki-keys]]
