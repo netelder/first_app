@@ -9,6 +9,8 @@ Some of the discussion I have here is for the earlier apps but it is extremely e
 * [RVM] and how easy to upgrade to newer version of [Rails on Rails].
 * [Running Spork Server] inside [RubyMine]
 * [Convert to PostgreSQL] Coming soon.
+* [Data Model] for Sample App starting in chapter 6.
+* [Rails Console] running inside [RubyMine]
 * [Extras](wiki/extras)
 * [Additional References]
 
@@ -21,6 +23,8 @@ Some of the discussion I have here is for the earlier apps but it is extremely e
 [RVM]: https://github.com/perfectionist/sample_project/wiki/rvm
 [Running Spork Server]: https://github.com/perfectionist/sample_project/wiki/Running-Spork-in-RubyMine
 [Convert to PostgreSQL]:  https://github.com/perfectionist/sample_project/wiki/Convert-to-PostgreSQL "COMING SOON!"
+[Data Model]:https://github.com/perfectionist/sample_project/wiki/datamodel
+[Rails Console]:https://github.com/perfectionist/sample_project/wiki/railsConsole
 [Rails Tutorial Notes]: https://github.com/perfectionist/sample_project/wiki/Rails-Tutorial-Notes
 
 [Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2 "Second Edition"
