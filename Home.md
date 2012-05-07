@@ -16,7 +16,9 @@ Some of the discussion I have here is for the earlier apps but it is extremely e
 
 ### FLASH ###
 **04/20/2012** [RubyMine] version 4.0.3 released and includes several [bug fixes].
+
 **05/06/2012** [RVM] updated to 1.13.4 and everything working fine. Took [RubyMine] down before upgrade.
+
 **05/06/2012** Updated Ruby to 1.9.3-p194 and updated 
 
 
