@@ -58,13 +58,14 @@ Setup a gem set
 Checking the version and location of `gem`
 
 ```bash
-
 	$ which gem
 	gem is /Users/loeffler/.rvm/rubies/ruby-1.9.3-p125/bin/gem
 	$ gem --version
 	1.8.21
-
 ```
+
+
+
 
 <a name="installrails"></a>
 ## Install Rails ##
@@ -147,10 +148,8 @@ Now to install `rails` (after turning off ri and rdoc documentation)
 Check version of `rails`:
 
 ```bash
-
 	$ rails -v
 	Rails 3.2.2
-
 ```
 
 Now we are ready to create our applications.
@@ -163,19 +162,15 @@ Michael has updated the [Ruby on Rails Tutorial] to use [Rails 3.2.3] for reason
 This is not a problem since we are using [RVM].  We could use **[delete][rvm delete]** or **[empty][rvm empty]** with [RVM].  I am going to use **empty** and then try to load up [Rails 3.2.3].  This will remove all the gems installed when we added rails 3.2.2.  
 
 ```bash
-
     $ rvm gemset empty rails3tutorial2ndEd
     Are you SURE you wish to remove the installed gems for gemset 'ruby-1.9.3-p125@rails3tutorial2ndEd' (/Users/loeffler/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd)?
     (anything other than 'yes' will cancel) > yes
     $ gem list
-
     *** LOCAL GEMS ***
-
     bundler (1.1.3)
     rake (0.9.2.2)
     rubygems-bundler (0.2.8)
     rvm (1.11.3.3)
-
 ```
 
 Now to install rails 3.2.3.
@@ -230,6 +225,45 @@ Now to install rails 3.2.3.
 	29 gems installed
 
 ```
+<a name="updateruby"></a>
+## Update Ruby  (May 6, 2012) ##
+
+I decided to update just when I started working through chapter 8. 
+
+First I updated `rvm` and the new version is 
+
+    rvm 1.13.4 (master) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+
+Then installed [`ruby 1.9.3-p194`](http://www.ruby-lang.org/en/news/2012/04/20/ruby-1-9-3-p194-is-released/)
+```bash
+    $ rvm install 1.9.3-p194
+    $ ruby --version
+    ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.3.0]
+```
+
+After update to `ruby 1.9.3-p194` I check the gem list.
+
+```bash
+$ gem list
+    *** LOCAL GEMS ***
+bundler (1.1.3)
+rake (0.9.2.2)
+rubygems-bundler (0.9.2)
+rvm (1.11.3.3)
+```
+
+The `gem` version 
+
+```bash
+$ gem --version
+1.8.24
+```
+
+Then installed the same version of rails, namely 3.2.3, and heroku.
+
+**Important:**  Run `bundle install` before starting up rails server.
+
+
 [install RVM]:http://beginrescueend.com/rvm/install/
 [RVM]:http://beginrescueend.com/
 [Rails 3.2.3]: http://weblog.rubyonrails.org/2012/3/30/ann-rails-3-2-3-has-been-released/

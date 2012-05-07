@@ -6,7 +6,7 @@ Some of the discussion I have here is for the earlier apps but it is extremely e
 
 * [Setting up RubyMIne IDE][Rails Tutorial Notes]. 
 * [Version Control] with Git using [RubyMine]
-* [RVM] and how easy to upgrade to newer version of [Rails on Rails].
+* [RVM] easy to upgrade to newer version of [Rails on Rails].
 * [Running Spork Server] inside [RubyMine]
 * [Convert to PostgreSQL] Coming soon.
 * [Data Model] for Sample App starting in chapter 6.
@@ -16,6 +16,8 @@ Some of the discussion I have here is for the earlier apps but it is extremely e
 
 ### FLASH ###
 **04/20/2012** [RubyMine] version 4.0.3 released and includes several [bug fixes].
+**05/06/2012** [RVM] updated to 1.13.4 and everything working fine. Took [RubyMine] down before upgrade.
+**05/06/2012** Updated Ruby to 1.9.3-p194 and updated 
 
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
