@@ -104,23 +104,23 @@ After editing the `Gemfile` is:
 	gem 'rails', '3.2.3'
 	
 	group :development do
-	  gem 'sqlite3', '>= 1.3.5'
+	  gem 'sqlite3', '1.3.5'
 	end
 	
 	group :assets do
-	  gem 'sass-rails',   '>= 3.2.4'
-	  gem 'coffee-rails', '>= 3.2.2'
+	  gem 'sass-rails',   '3.2.4'
+	  gem 'coffee-rails', '3.2.2'
 	
-	  gem 'uglifier', '>= 1.2.3'
+	  gem 'uglifier', '1.2.3'
 	end
 	
-	gem 'jquery-rails', '>= 2.0.0'
+	gem 'jquery-rails', '2.0.0'
 ```
 
 <a name="bundler"></a>
 ## Run Bundler ##
 
-To run the **bundler** select it under the **Tools** menubar item. If this fails to install missing gems successfully, they can also be added manually from a terminal session as **gem install jquery-rails** (and so forth).
+To run the **bundler** select it under the **Tools** menubar item.
 
 ![Bundler]
 
