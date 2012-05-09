@@ -2,7 +2,7 @@
 
 This is about how to use [RubyMine] as your editor for the [Ruby on Rails Tutorial] version 3.2 by Michael Hartl. The tutorial covers three applications.  The `first_app` is very simple, the second, `demo_app` has some active record stuff but the third `sample_app` is a full blown application with lots of good stuff to learn from. I highly recommend Michael's work over any other tutorial that I have seen especially because of the depth it goes into as well as breadth.
 
-Some of the discussion I have here is for the earlier apps but it is extremely easy to extend to other apps where easy is just change the app name when filling in new project dialog.
+Some of the discussion I have here is for the earlier apps but it is extremely easy to extend to other apps where easy is just change the app name when filling in new project dialog.  When I work his applications using [RubyMine] I end with `_project` instead of `_app`.  I do this because I worked the tutorial with Sublime Text 2 and wanted to  distinguish easily between them.
 
 * [Setting up RubyMIne IDE][Rails Tutorial Notes]. 
 * [Version Control] with Git using [RubyMine]
@@ -14,12 +14,14 @@ Some of the discussion I have here is for the earlier apps but it is extremely e
 * [Extras](wiki/extras)
 * [Additional References]
 
+What editors have I tried?  Well, [Aquamacs] was my first choice because I am a long time emacs user (since 1980).  I did a lot of work setting up the environment and it works pretty well.  But it is still and editor and not as much knowledge other tools used like SCSS.  Another was [MacVim] with a ton of rails extensions. Very nice editor and like it almost as much as [Aquamacs].  I even wrote some extensions for [BBEdit] but it was much harder to extend and I gave up. The old gold standard, [textmate] was used for part of 3.0 version of [Ruby on Rails Tutorial] but since I did not purchase version 1.5 I could not try out version 2. So I took a pass on it this time around.  [Sublime Text 2] is great and I would recommend it over [textmate] now.
+
 ### FLASH ###
-**04/20/2012** [RubyMine] version 4.0.3 released and includes several [bug fixes].
-
-**05/06/2012** [RVM] updated to 1.13.4 and everything working fine. Took [RubyMine] down before upgrade.
-
-**05/06/2012** Updated Ruby to 1.9.3-p194 and updated 
+* **04/20/2012** [RubyMine] version 4.0.3 released and includes several [bug fixes].
+* **05/06/2012** [RVM] updated to 1.13.4 and everything working fine. Took [RubyMine] down before upgrade.
+* **05/06/2012** Updated Ruby to 1.9.3-p194 and redid the install of rails after setting default ruby to 1.9.3-p194.
+    Then `cd` to project directory and run `bundle install` and 
+    be sure to update Ruby and Gemset in [RubyMine]. To be on the safe side run the bundler in there as well.
 
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
@@ -34,4 +36,9 @@ Some of the discussion I have here is for the earlier apps but it is extremely e
 [Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2 "Second Edition"
 [RubyMine]: http://www.jetbrains.com/ruby/
 [Ruby on Rails]: http://rubyonrails.org/
+[Aquamacs]:http://aquamacs.org/
+[MacVim]:http://code.google.com/p/macvim/
+[textmate]:http://macromates.com/
+[Sublime Text 2]:http://www.sublimetext.com/2
+[BBEdit]:http://www.barebones.com/products/bbedit/index.html?utm_source=df&utm_medium=banner&utm_campaign=bbedit
 [bug fixes]:http://youtrack.jetbrains.com/releaseNotes?q=fixed+in%3A+%7BRubyMine+4.0.3+RC+%28build+117.159%29%7D+fixed+in%3A+%7BRubyMine+4.0.3%7D+state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+sort+by%3A+priority&token=1iose10go2jemmny1xrhcsdo2&verbose=false
