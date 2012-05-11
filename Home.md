@@ -22,6 +22,7 @@ What editors have I tried?  Well, [Aquamacs] was my first choice because I am a 
 * **05/06/2012** Updated Ruby to 1.9.3-p194 and redid the install of rails after setting default ruby to 1.9.3-p194.
     Then `cd` to project directory and run `bundle install` and 
     be sure to update Ruby and Gemset in [RubyMine]. To be on the safe side run the bundler in there as well.
+* **05/11/2012** Added Ruby version to `Gemfile` to set [ruby version on heroku](http://blog.heroku.com/archives/2012/5/9/multiple_ruby_version_support_on_heroku/).  `heroku run 'ruby -v'` yields `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]` for this project now.
 
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
