@@ -9,3 +9,7 @@ This is the `User` data model show in figure 6.2 in tutorial.
 Structure of the Postgres table `users` you can compare with figure 6.3 for sqlite3.
 
 ![Figure 6.3](images/PostgresQueryTool6.3.png)
+
+Data Model after adding password including `timestamp` columns.
+
+![Data Model with Password](images/UserModelWithPassword.png)
