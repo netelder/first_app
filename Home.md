@@ -8,13 +8,13 @@ Some of the discussion I have here is for the earlier apps but it is extremely e
 * [Version Control] with Git using [RubyMine]
 * [RVM] easy to upgrade to newer version of [Rails on Rails].
 * [Running Spork Server] inside [RubyMine]
-* [Convert to PostgreSQL] Coming soon.
+* [Convert to PostgreSQL] for development and testing
 * [Data Model] for Sample App starting in chapter 6.
 * [Rails Console] running inside [RubyMine]
 * [Extras](wiki/extras)
 * [Additional References]
 
-What editors have I tried?  Well, [Aquamacs] was my first choice because I am a long time emacs user (since 1980).  I did a lot of work setting up the environment and it works pretty well.  But it is still and editor and not as much knowledge other tools used like SCSS.  Another was [MacVim] with a ton of rails extensions. Very nice editor and like it almost as much as [Aquamacs].  I even wrote some extensions for [BBEdit] but it was much harder to extend and I gave up. The old gold standard, [textmate] was used for part of 3.0 version of [Ruby on Rails Tutorial] but since I did not purchase version 1.5 I could not try out version 2. So I took a pass on it this time around.  [Sublime Text 2] is great and I would recommend it over [textmate] now.
+What editors have I tried?  Well, [Aquamacs] was my first choice because I am a long time emacs user (since 1980 with [Multics emacs]).  I did a lot of work setting up the environment and it works pretty well.  But it is still and editor and not as much knowledge other tools used like SCSS.  Another was [MacVim] with a ton of rails extensions. Very nice editor and like it almost as much as [Aquamacs].  I even wrote some extensions for [BBEdit] but it was much harder to extend and I gave up. The old gold standard, [textmate] was used for part of 3.0 version of [Ruby on Rails Tutorial] but since I did not purchase version 1.5 I could not try out version 2. So I took a pass on it this time around.  [Sublime Text 2] is great and I would recommend it over [textmate] now.
 
 ### FLASH ###
 * **04/20/2012** [RubyMine] version 4.0.3 released and includes several [bug fixes].
@@ -34,6 +34,8 @@ What editors have I tried?  Well, [Aquamacs] was my first choice because I am a 
 [Data Model]:https://github.com/perfectionist/sample_project/wiki/datamodel
 [Rails Console]:https://github.com/perfectionist/sample_project/wiki/railsConsole
 [Rails Tutorial Notes]: https://github.com/perfectionist/sample_project/wiki/Rails-Tutorial-Notes
+
+[Multics emacs]:http://en.wikipedia.org/wiki/Multics_Emacs "Yes I knew Bernie"
 
 [Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2 "Second Edition"
 [RubyMine]: http://www.jetbrains.com/ruby/

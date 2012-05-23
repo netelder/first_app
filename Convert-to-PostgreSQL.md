@@ -61,16 +61,14 @@ sample_project_development=# \d
 (3 rows)
 
 sample_project_development=# \l
-                                     List of databases
-            Name            |  Owner   | Encoding | Collate | Ctype |   Access privileges   
-----------------------------+----------+----------+---------+-------+-----------------------
- postgres                   | postgres | UTF8     | C       | C     | 
- sample_project_development | loeffler | UTF8     | C       | C     | 
- sample_project_test        | loeffler | UTF8     | C       | C     | 
- template0                  | postgres | UTF8     | C       | C     | =c/postgres          +
-                            |          |          |         |       | postgres=CTc/postgres
- template1                  | postgres | UTF8     | C       | C     | =c/postgres          +
-                            |          |          |         |       | postgres=CTc/postgres
+    List of databases
+            Name            |  Owner   |   
+----------------------------+----------+
+ postgres                   | postgres | 
+ sample_project_development | loeffler |  
+ sample_project_test        | loeffler |  
+ template0                  | postgres | 
+ template1                  | postgres |
 (5 rows)
 ```
 And here is the first 10 users (at the end of chapter 9)
