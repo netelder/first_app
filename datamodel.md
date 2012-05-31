@@ -13,3 +13,9 @@ Structure of the Postgres table `users` you can compare with figure 6.3 for sqli
 Data Model after adding password including `timestamp` columns.
 
 ![Data Model with Password](images/UserModelWithPassword.png)
+
+Data Model after adding `Microposts`
+
+![Data Model with Microposts](images/chapter10model.png)
+
+![Data Model with Microposts - all columns](images/chapter10modelall.png)
