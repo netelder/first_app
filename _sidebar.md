@@ -25,6 +25,7 @@
 	* [[Heroku|vcs#wiki-heroku]]
 		* [[Initial Setup|vcs#wiki-herokuinitial]]
 		* [[Pushing to Heroku|vcs#wiki-herokupush]]
+* [[Running Spork Server|Running Spork in RubyMine]]
 * [[Using PostgreSQL|Convert to PostgreSQL]]
 * [[Data Model|datamodel]]
 * [[Rails Console|railsConsole]]

@@ -77,18 +77,18 @@ And here is the first 10 users (at the end of chapter 9)
 SELECT name,email,admin FROM users LIMIT 10;   
 ```
 
-| name         |            email            | admin |
+| name 	|            email 	| admin 	|
 | -------------------- 	| ---------------------------- 	| :--: 	|
-|  Example User         | example@railstutorial.org   | t |
-| Dr. Abel Jacobs      | example-1@railstutorial.org | f |
-| Silas Kertzmann      | example-2@railstutorial.org | f |
-| Krystina Osinski     | example-3@railstutorial.org | f |
-| Melvina Lind         | example-4@railstutorial.org | f |
-| Kathryn Ward         | example-5@railstutorial.org | f |
-| Antwon Berge DVM     | example-6@railstutorial.org | f |
-| Dallin Kuhlman PhD   | example-7@railstutorial.org | f |
-| Alphonso Stoltenberg | example-8@railstutorial.org | f |
-|  Iva Erdman II        | example-9@railstutorial.org | f |
+|  Example User 	| example@railstutorial.org 	| t 	|
+| Dr. Abel Jacobs 	| example-1@railstutorial.org 	| f 	|
+| Silas Kertzmann 	| example-2@railstutorial.org 	| f 	|
+| Krystina Osinski 	| example-3@railstutorial.org 	| f 	|
+| Melvina Lind 	| example-4@railstutorial.org 	| f 	|
+| Kathryn Ward 	| example-5@railstutorial.org 	| f 	|
+| Antwon Berge DVM 	| example-6@railstutorial.org 	| f 	|
+| Dallin Kuhlman PhD 	| example-7@railstutorial.org 	| f 	|
+| Alphonso Stoltenberg 	| example-8@railstutorial.org 	| f 	|
+|  Iva Erdman II 	| example-9@railstutorial.org 	| f 	|
                                                                         
 
 [PostgreSQL for Mac]: http://www.postgresqlformac.com/
