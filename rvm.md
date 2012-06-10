@@ -261,6 +261,18 @@ $ gem --version
 
 Then installed the same version of rails, namely 3.2.3, and heroku.
 
+## Update Rails (June 9, 2012) {#updaterails325} ##
+
+Well, it is time to update to a newer version of Rails again.  As always [RVM] to the rescue.  Before I start I always check the version of RVM.
+
+	$ rvm --version
+	
+	rvm 1.13.4 (master) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+
+>I would love to use &#8963;&#8984;&rarr; but I am using [Optimal Layout](http://most-advantageous.com/optimal-layout/) that has rebound that sequence to moving the window a few pixels to the right. Maybe I rebind to &#8984;] inside Multimarkdown Composer.
+
+Following directions above I found the latest head version is 1.14.1. 
+	
 **Important:**  Run `bundle install` before starting up rails server.
 
 
