@@ -261,7 +261,7 @@ $ gem --version
 
 Then installed the same version of rails, namely 3.2.3, and heroku.
 
-## Update Rails (June 9, 2012) {#updaterails325} ##
+## Update Rails (June 9, 2012) [updaterails325] ##
 
 Well, it is time to update to a newer version of Rails again.  As always [RVM] to the rescue.  Before I start I always check the version of RVM.
 
