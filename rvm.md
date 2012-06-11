@@ -1,9 +1,9 @@
 # Ruby Version Manager #
 
-Use of RVM (Ruby Version Manager) allows us to work several Ruby and Rails projects that may require different versions ruby, rails and gems. One interesting thing happened while I was working on the tutorial.  Michael changed the version of Rails to 3.2.3 and there is a trick with RVM that makes this easy to do.
+Use of RVM (Ruby Version Manager) allows us to work several Ruby and Rails projects that may require different versions ruby, rails and gems. One interesting thing happened while I was working on the tutorial.  Michael changed the version of Rails to 3.2.3 and there is a [trick](#update) with RVM that makes this easy to do.
 
 <a name="install"></a>
-## Installing RVM ##
+## Installing RVM (actually Updating RVM) ##
 
 
 To [install RVM] on my Mac I followed the directions on the [RVM] site. Since I already had RVM installed I just asked RVM to install the `head` version then reload itself.
@@ -261,6 +261,8 @@ $ gem --version
 
 Then installed the same version of rails, namely 3.2.3, and heroku.
 
+**Important:**  Run `bundle install` before starting up rails server.
+
 <a name="updaterails325"></a>
 ## Update Rails (June 9, 2012) ##
 
@@ -274,7 +276,9 @@ Well, it is time to update to a newer version of Rails again.  As always [RVM] t
 
 Following directions above I found the latest head version is 1.14.1. 
 	
-**Important:**  Run `bundle install` before starting up rails server.
+http://screencasts.org/episodes/how-to-use-rvm
+
+http://cheat.errtheblog.com/s/rvm/
 
 
 [install RVM]:http://beginrescueend.com/rvm/install/
