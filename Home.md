@@ -1,3 +1,5 @@
+Author: David Loeffler
+
 # Using RubyMine IDE for Hartl's Ruby on Rails Tutorial #
 
 This is about how to use [RubyMine] as your editor for the [Ruby on Rails Tutorial] version 3.2 by Michael Hartl. The tutorial covers three applications.  The `first_app` is very simple, the second, `demo_app` has some active record stuff but the third `sample_app` is a full blown application with lots of good stuff to learn from. I highly recommend Michael's work over any other tutorial that I have seen especially because of the depth it goes into as well as breadth.
