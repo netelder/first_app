@@ -1,12 +1,12 @@
 # Ruby Version Manager #
 
-Use of RVM (Ruby Version Manager) allows us to work several Ruby and Rails projects that may require different versions ruby, rails and gems. One interesting thing happened while I was working on the tutorial.  Michael changed the version of Rails to 3.2.3 and there is a [trick](#update) with RVM that makes this easy to do.
+Use of RVM (Ruby Version Manager) allows us to work several Ruby and Rails projects that may require different versions ruby, rails and gems. One interesting thing happened while I was working on the tutorial.  Michael changed the version of Rails to 3.2.3 and there is a [trick](#update) with RVM that makes this easy to do. In fact we'll do this more than once.
 
 <a name="install"></a>
 ## Installing RVM (actually Updating RVM) ##
 
 
-To [install RVM] on my Mac I followed the directions on the [RVM] site. Since I already had RVM installed I just asked RVM to install the `head` version then reload itself.
+To [install RVM] on my Mac I followed the directions on the [RVM] site. Since I already had RVM installed I just asked RVM to install the `head` version then reload itself.  If you are a newbie you might want to which a video suggested when installing [RVM]
 
 ```bash
     $ rvm get head && rvm reload
@@ -155,7 +155,7 @@ Check version of `rails`:
 Now we are ready to create our applications.
 
 <a name="update"></a>
-## Update Rails (March 31, 2012) ##
+## Update Rails to 3.2.3 (March 31, 2012) ##
 
 Michael has updated the [Ruby on Rails Tutorial] to use [Rails 3.2.3] for reasons given in this [posting](http://news.ycombinator.com/item?id=3781233  "accessible via mass assignment") .
 
@@ -163,7 +163,9 @@ This is not a problem since we are using [RVM].  We could use **[delete][rvm del
 
 ```bash
     $ rvm gemset empty rails3tutorial2ndEd
-    Are you SURE you wish to remove the installed gems for gemset 'ruby-1.9.3-p125@rails3tutorial2ndEd' (/Users/loeffler/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd)?
+    Are you SURE you wish to remove the installed gems for gemset 
+      'ruby-1.9.3-p125@rails3tutorial2ndEd' 
+      (/Users/loeffler/.rvm/gems/ruby-1.9.3 p125@rails3tutorial2ndEd)?
     (anything other than 'yes' will cancel) > yes
     $ gem list
     *** LOCAL GEMS ***
@@ -226,7 +228,7 @@ Now to install rails 3.2.3.
 
 ```
 <a name="updateruby"></a>
-## Update Ruby  (May 6, 2012) ##
+## Update Ruby to 1.9.3 p194 (May 6, 2012) ##
 
 I decided to update just when I started working through chapter 8. 
 
@@ -264,9 +266,9 @@ Then installed the same version of rails, namely 3.2.3, and heroku.
 **Important:**  Run `bundle install` before starting up rails server.
 
 <a name="updaterails325"></a>
-## Update Rails (June 9, 2012) ##
+## Update Rails to 3.2.5 (June 9, 2012) ##
 
-Well, it is time to update to a newer version of Rails again.  As always [RVM] to the rescue.  Before I start I always check the version of RVM.
+Well, it is time to update to a newer version of Rails again, this time to version 3.2.5.  As always, [RVM] to the rescue.  Before I start I always check the version of RVM.
 
 	$ rvm --version
 	
@@ -274,16 +276,44 @@ Well, it is time to update to a newer version of Rails again.  As always [RVM] t
 
 >I would love to use &#8963;&#8984;&rarr; but I am using [Optimal Layout](http://most-advantageous.com/optimal-layout/) that has rebound that sequence to moving the window a few pixels to the right. Maybe I rebind to &#8984;] inside Multimarkdown Composer.
 
-Following directions above I found the latest head version is 1.14.1. 
+Following [directions above](#install) I found the latest head version is 1.14.1.  Now to do the install of [Rails 3.2.5] following the same steps [above](#update).  To check installed gemsets:
+
+```bash
+	$ rvm list gemsets
 	
+	rvm gemsets
+	
+	   ruby-1.9.3-p125 [ x86_64 ]
+	   ruby-1.9.3-p125@global [ x86_64 ]
+	   ruby-1.9.3-p125@rails3tutorial2ndEd [ x86_64 ]
+	   ruby-1.9.3-p125@sasbook [ x86_64 ]
+	   ruby-1.9.3-p194 [ x86_64 ]
+	   ruby-1.9.3-p194@global [ x86_64 ]
+	=> ruby-1.9.3-p194@rails3tutorial2ndEd [ x86_64 ]
+```
+
+Remove the gems
+
+	$ rvm gemset empty rails3tutorial2ndEd
+	$ gem install rails -v 3.2.5
+	$ bundle update
+	$ bundle install
+
+Notice the `bundle update`.  When I used `bundle install` first I got errors in dependences.  I also had to do the same thing inside [RubyMine].  Also, I am now running **RubyMine 4.5 EAP RM-118.614 built June 6, 2012**.
+I am now on track to complete the tutorial's final chapter.
+
+		
 http://screencasts.org/episodes/how-to-use-rvm
 
 http://cheat.errtheblog.com/s/rvm/
 
 
 [install RVM]:http://beginrescueend.com/rvm/install/
+[RubyMine]: http://www.jetbrains.com/ruby/
+[Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2 "Second Edition"
 [RVM]:http://beginrescueend.com/
 [Rails 3.2.3]: http://weblog.rubyonrails.org/2012/3/30/ann-rails-3-2-3-has-been-released/
+[Rails 3.2.5]: http://weblog.rubyonrails.org/2012/5/31/ann-rails-3-2-5-has-been-released/
 [rubygems]: http://rubygems.org/
 [rvm delete]:http://beginrescueend.com/gemsets/deleting/
 [rvm empty]:http://beginrescueend.com/gemsets/emptying/

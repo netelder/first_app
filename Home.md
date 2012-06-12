@@ -1,5 +1,3 @@
-Author: David Loeffler
-
 # Using RubyMine IDE for Hartl's Ruby on Rails Tutorial #
 
 This is about how to use [RubyMine] as your editor for the [Ruby on Rails Tutorial] version 3.2 by Michael Hartl. The tutorial covers three applications.  The `first_app` is very simple, the second, `demo_app` has some active record stuff but the third `sample_app` is a full blown application with lots of good stuff to learn from. I highly recommend Michael's work over any other tutorial that I have seen especially because of the depth it goes into as well as breadth.
@@ -26,7 +24,7 @@ What editors have I tried?  Well, [Aquamacs] was my first choice because I am a 
     be sure to update Ruby and Gemset in [RubyMine]. To be on the safe side run the bundler in there as well.
 * **05/11/2012** Added Ruby version to `Gemfile` to set [ruby version on heroku](http://blog.heroku.com/archives/2012/5/9/multiple_ruby_version_support_on_heroku/).  `heroku run 'ruby -v'` yields `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]` for this project now.
 * **05/20/2012** Upgraded [RubyMine] to version 4.5 EAP. Some new stuff is support for PIK and rbenv in addition to [RVM]. Also several [bug fixes](http://youtrack.jetbrains.com/releaseNotes?q=fixed+in%3A+%7BRubyMine+4.5+EAP+%28build+118.472%29%7D+state%3A+Fixed+state%3A+Verified+state%3A+Obsolete+sort+by%3A+priority&token=1klvqpw64f9t19dm1l149grqe&verbose=false)  See [release notes](http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+4.5+EAP+%28build+118.472%29+Release+Notes) for more details of updates from version 4.0.3. 
-
+* **06/12/2012** Updated Rails to version 3.2.5.  See [RVM] for details.
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
 [Version Control]: https://github.com/perfectionist/sample_project/wiki/vcs
