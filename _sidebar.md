@@ -6,6 +6,7 @@
 	* [[Install Rails|rvm#wiki-installrails]]
 	* [[Update Rails to 3.2.3|rvm#wiki-update]]
 	* [[Update Ruby to 1.9.3-p194|rvm#wiki-updateruby]]
+	* [[Update Rails to 3.2.5|rvm#wiki-uprails325]]
 * [[Setup RubyMine|Rails Tutorial Notes|Rails Tutorial Notes]]
 	* [[Setup IDE|Rails Tutorial Notes#wiki-setup]]
 	* [[Create First Application|Rails Tutorial Notes#wiki-firstapp]]

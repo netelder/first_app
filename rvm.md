@@ -274,13 +274,11 @@ Well, it is time to update to a newer version of Rails again, this time to versi
 	
 	rvm 1.13.4 (master) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 
->I would love to use &#8963;&#8984;&rarr; but I am using [Optimal Layout](http://most-advantageous.com/optimal-layout/) that has rebound that sequence to moving the window a few pixels to the right. Maybe I rebind to &#8984;] inside Multimarkdown Composer.
-
 Following [directions above](#install) I found the latest head version is 1.14.1.  Now to do the install of [Rails 3.2.5] following the same steps [above](#update).  To check installed gemsets:
 
 ```bash
 	$ rvm list gemsets
-	
+       	
 	rvm gemsets
 	
 	   ruby-1.9.3-p125 [ x86_64 ]
@@ -292,12 +290,14 @@ Following [directions above](#install) I found the latest head version is 1.14.1
 	=> ruby-1.9.3-p194@rails3tutorial2ndEd [ x86_64 ]
 ```
 
-Remove the gems
+Remove the gems, install rails and then bundle.
 
+```bash
 	$ rvm gemset empty rails3tutorial2ndEd
 	$ gem install rails -v 3.2.5
 	$ bundle update
 	$ bundle install
+```
 
 Notice the `bundle update`.  When I used `bundle install` first I got errors in dependences.  I also had to do the same thing inside [RubyMine].  Also, I am now running **RubyMine 4.5 EAP RM-118.614 built June 6, 2012**.
 I am now on track to complete the tutorial's final chapter.
