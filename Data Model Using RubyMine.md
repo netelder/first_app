@@ -1,4 +1,4 @@
-# Data Model Using RubyMine#
+# Data Model Using RubyMine #
 
 ## Chapter 6 User Data Model ##
 
