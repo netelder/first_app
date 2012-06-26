@@ -1,5 +1,10 @@
 # Data Model Using RubyMine #
 
+[RubyMIne] has a neat tool for visualizing the data model. Under the **View** menu select 
+**Show Model Dependency Diagram** &#8963;&#8997;D. Below are diagrams from the evolution of the model from just the `User` to when it includes `User`, `Micropost`, and `Relationship`. 
+
+![View Menu](images/ViewMenuDataModel.png)
+
 <a name="ch06"></a>
 ## Chapter 6 User Data Model ##
 
@@ -28,3 +33,5 @@ Data Model after adding password  in section 6.3 (and )including `timestamp` col
 ![Datamodel with Relationships](images/FinalDataModel.png)
 
 ![Datamodel with popup annotation of relationship](images/FinalDataModelAnnotate.png)
+
+[RubyMine]: http://www.jetbrains.com/ruby/
