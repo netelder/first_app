@@ -1,5 +1,6 @@
 # Data Model Using RubyMine #
 
+<a name="ch06"></a>
 ## Chapter 6 User Data Model ##
 
 This is the `User` data model show in figure 6.2 in tutorial.
@@ -14,12 +15,14 @@ Data Model after adding password  in section 6.3 (and )including `timestamp` col
 
 ![Data Model with Password](images/UserModelWithPassword.png)
 
+<a name="ch10"></a>
 ## Chapter 10 Micropost Data Model ##
 
 ![Data Model with Microposts](images/chapter10model.png)
 
 ![Data Model with Microposts - all columns](images/chapter10modelall.png)
 
+<a name="ch11"></a>
 ## Chapter 11 Relationship Data Model ##
 
 ![Datamodel with Relationships](images/FinalDataModel.png)
