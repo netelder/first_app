@@ -13,7 +13,7 @@ I will be referring to menubar items below, especially the
 
 **Important Note**
 It seems [RubyMine]'s memory footprint grows the longer I leave it
-open. I
+open. 
 
 <a name="setup"></a>
 ## Setup IDE ##
