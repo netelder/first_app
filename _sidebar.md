@@ -27,7 +27,7 @@
 		* [[Initial Setup|Using Git In RubyMine#wiki-herokuinitial]]
 		* [[Pushing to Heroku|Using Git In RubyMine#wiki-herokupush]]
 * [[Running Spork Server|Running Spork in RubyMine]]
-* [[Using PostgreSQL|Convert to PostgreSQL]]
+* [[Convert to PostgreSQL|Convert to PostgreSQL]]
 * [[Data Model|Data Model Using RubyMine]]
 	* [[User|Data Model Using RubyMine#wiki-ch6]]
 	* [[Micropost|Data Model Using RubyMine#wiki-ch10]]
