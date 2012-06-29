@@ -1,10 +1,7 @@
 # Converting to PostgreSQL #
 
----
-
 **FLASH:** I recently (June 27, 2012) converted to a better way of installing and using Postgres.  This one is much easier to install and is more current.  Plus, it is maintained by Mattt Thompson and source is on GitHub.  I will keep the old information at the bottom of this page.
 
----
 
 In chapter 3 exercise 3 Michael challenges us to use [PostgreSQL] in development and testing environments since that is what [Heroku] uses in production. 
 
