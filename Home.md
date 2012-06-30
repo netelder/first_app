@@ -28,7 +28,7 @@ What editors have I tried?  Well, [Aquamacs] was my first choice because I am a 
 * **06/27/2012** Updated PostgreSQL install directions to use Mattt Thompson's new **Postgres.app**.
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
-[Version Control]: https://github.com/perfectionist/sample_project/wiki/Ruby\ Version\ Manager
+[Version Control]:"https://github.com/perfectionist/sample_project/wiki/Ruby Version Manager"
 [RVM]: https://github.com/perfectionist/sample_project/wiki/rvm
 [Running Spork Server]: https://github.com/perfectionist/sample_project/wiki/Running-Spork-in-RubyMine
 [Convert to PostgreSQL]:  https://github.com/perfectionist/sample_project/wiki/Convert-to-PostgreSQL "COMING SOON!"
