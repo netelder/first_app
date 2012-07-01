@@ -29,12 +29,12 @@ What editors have I tried?  Well, [Aquamacs] was my first choice because I am a 
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
 [Version Control]:https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager
-[RVM]: https://github.com/perfectionist/sample_project/wiki/rvm
+[RVM]: https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager
 [Running Spork Server]: https://github.com/perfectionist/sample_project/wiki/Running-Spork-in-RubyMine
-[Convert to PostgreSQL]:  https://github.com/perfectionist/sample_project/wiki/Convert-to-PostgreSQL "COMING SOON!"
-[Data Model]:https://github.com/perfectionist/sample_project/wiki/datamodel
-[Rails Console]:https://github.com/perfectionist/sample_project/wiki/railsConsole
-[Rails Tutorial Notes]: https://github.com/perfectionist/sample_project/wiki/Rails-Tutorial-Notes
+[Convert to PostgreSQL]:  https://github.com/perfectionist/sample_project/wiki/Convert-to-PostgreSQL 
+[Data Model]:https://github.com/perfectionist/sample_project/wiki/Data-Model-Using-RubyMine
+[Rails Console]:https://github.com/perfectionist/sample_project/wiki/Rails-Console
+[Rails Tutorial Notes]: https://github.com/perfectionist/sample_project/wiki/Using-RubyMine-IDE-for-Ruby-on-Rails-Tutorial
 
 [Multics emacs]:http://en.wikipedia.org/wiki/Multics_Emacs "Yes I knew Bernie"
 
