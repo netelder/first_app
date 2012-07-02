@@ -1,36 +1,14 @@
 # Extras #
 
-<a name="modeldiagrams"></a>
-## Model Diagrams ##
+<a name="usefulPrefs"></a>
+## Useful Prefences ##
 
-It is easy to create a data model diagram with [RubyMine].  Here I'll do the model for the **demo_app** in the [Ruby on Rails Tutorial] in [chapter 2].  This app has just 2 models: `user` and `micropost`.  Just pick the **View** item in the RubyMine menu bar (shown below).
+Setting **EOL** (TODO)
 
-![Menu Bar](images/rubymine_menubar.png)
-
-Then select **Show Model Dependency Diagram** from the drop down menu.
-
-![ModelMenu](images/ShowModelMenu.png)
-
-The diagram is displayed in its own sub window.  There are a number of display options that let you see more or less information and on applications with more models there are various layout options. See the [Model Dependency Diagram video].
-
-![Demo Project Model Diagram](images/DemoProjectModel.png)
-
-The diagram can be exported to a number of different formats.  
-
-![Export Model Diagram Dialog](images/ExportModelDiagramDialog.png)
-
-The PNG format is shown below. **Note:** the **Powered by yFiles** label on the PNG.  This can be removed from the SVG output by using an editor.  But, unfortunately SVG can not be displayed on [GitHub] 
-
-![Exported Demo Model Diagram](images/DemoExportDiagram.png)
-
-If you export with SVG option you should be able to remove the **Powered by yFile** label.  I removed it using [Inkscape].  SVG image may not appear on this wiki so download the [SVG](images/ExportedDemoModelProjectSvg.svg) here.  Here it is converted to PNG
-
-![SVG Converted to PNG](images/g3646.png)
-
-
+Tabs as Spaces (TODO)
 
 <a name="keys"></a>
-## Keyboard Mapping ##
+## Keyboard Mappings ##
 
 Keymap for Mac, to be nice, is *odd*, for example:
 

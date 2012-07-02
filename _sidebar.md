@@ -34,7 +34,7 @@
 	* [[Relationship|Data Model Using RubyMine#wiki-ch11|Ruby Version Manager]]
 * [[Rails Console|Rails Console]]
 * [[Extras|extras]]
-	* [[Model Diagrams|extras#wiki-modeldiagrams]]
+	* [[Preferences|extras#wiki-usefulPrefs]]
 	* [[Keyboard Mappings|extras#wiki-keys]]
 	* [[Online Help|extras#wiki-help]]
 	* [[Reformat Code|extras#wiki-reformat]]
