@@ -38,3 +38,4 @@
 	* [[Keyboard Mappings|extras#wiki-keys]]
 	* [[Online Help|extras#wiki-help]]
 	* [[Reformat Code|extras#wiki-reformat]]
+	* [[Refactor Code|extras#wiki-refactor]]

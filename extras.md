@@ -36,6 +36,30 @@ http://www.jetbrains.com/ruby/webhelp/getting-help.html
 
 ![Reformat Menu](images/ReformatCodeFinished.png)
 
+<a name="refactoring"></a>
+## Refactoring ##
+
+In Chapter 11, [Figure 11.17](http://ruby.railstutorial.org/chapters/following-users#code:sample_relationships) we have our first opportunity to use refactoring on the `sample_data.rake` file.  We had defined a block to create users and then add 50 micro posts to the first 6 users in the database. Now we want to add follower/followed relationships between the users.  It just *feels* like the right time to tease apart the block a little.
+
+The first step is to highlight the code that will be extracted into a method.  Below is the code that will become the `create_user` method.
+
+![](images/refactor1.png)
+
+You can either right click and select **Refactor > Extract > Method** or use the keyboard shortcut, 
+**&#8984;&#8997;M**. If there is an error, the message sometimes does not show up with the right click method.  But it worked when I used **&#8984;&#8997;M**.  Try for yourself by highlighting the one extra line above the code shown above. 
+
+![](images/refactor2.png)
+
+The next step is setting the new method's name, in this case it is `create_users`. In this case there are no parameters or output variables. 
+
+![](images/refactor3.png)
+
+The extracted method is put at the beginning of the file. Personally, I prefer after the block or at the end of the file.  But moving after the refactoring is not too hard.
+
+![](images/refactor4.png)
+
+To move the `create_users` method to the end of the file is pretty easy using a *trick*.  The trick is using (on Mac) **&#8984;W**.  First position the cursor inside the method then successively press **&#8984;W**.  Each time it will select more more level of code, eventually it will select the entire method.  If you go too far then use **&#8984;&#8679;W** to back down a level. Then cut the method, move to the bottom of the file and paste.  
+
 
 [RubyMine]: http://www.jetbrains.com/ruby/ "Ruby on Rails IDE"
 [Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ "Rails Tutorial"
