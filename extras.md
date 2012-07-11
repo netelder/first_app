@@ -3,17 +3,25 @@
 <a name="usefulPrefs"></a>
 ## Useful Prefences ##
 
-Setting **EOL** (TODO)
+### Setting Caret Position to EOL ###
 
-Tabs as Spaces (TODO)
+The default setting for caret placement is where you point the mouse pointer.  This is annoying for me since I like the caret to move to the end of the line (EOL).  To get the behavior I wanted I had to go to the **Editor** preference pane and uncheck **Allow Placement of caret after end of line**.
+
+![Setting where caret goes](images/EOLcaretPlacement.png)
+
+## Tabs as Spaces ##
+
+I gave up using tab character after having to write and debug Make files over 20 years ago.  To not use them in [RubyMine] go to the **Code Style** preference pane.  Each situation listed under it is where you can elect to use or not use tab character. 
+
+![Don't use tabs](images/DontUseTabs.png)
 
 <a name="keys"></a>
 ## Keyboard Mappings ##
 
 Keymap for Mac, to be nice, is *odd*, for example:
 
-* **&#8984; P** is Parameter info (within method call arguments) not Print
-* **&#8984; N** is Go to Class not New File 
+* **&#8984;P** is Parameter info (within method call arguments) not Print
+* **&#8984;N** is Go to Class not New File 
 * **^N** is New File not Next Line
 
 To name just a few.  
@@ -30,11 +38,21 @@ http://www.jetbrains.com/ruby/webhelp/getting-help.html
 <a name="reformat"></a>
 ## Reformat Code ##
 
+Reformatting code is easy with [RubyMine].  Under the **View** menubar the drop down menu has **Reformat Code…**. I prefer to use the **&#8997;&#8984;L** (for Mac). This works for Ruby, CSS, and other code.
+
 ![Reformat Menu](images/ReformatCodeMenu.png)
+
+The **Reformat Code** dialog box pops up and lets you change the default option.  I keep this popping up since the keyboard short cut is the same as **Apply Rules** in Mail app and I hate is when I blindly use the keyboard short cuts without looking at exactly which app I am in. 
 
 ![Reformat Menu](images/ReformatCodeDialog.png)
 
-![Reformat Menu](images/ReformatCodeFinished.png)
+The example here is a `scss` file that has been reformatted. 
+
+![Reformatted SCSS Selection](images/ReformatCodeFinished.png)
+
+There is a preference panel for coding styles.  Shown below is the one for Ruby. 
+
+![](images/FormatPreferences.png)
 
 <a name="refactoring"></a>
 ## Refactoring ##
