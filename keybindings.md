@@ -67,7 +67,7 @@ Steps to add `^A`
 
 &#8679;  Shift
 
-# &icirc;
+&icirc;
 
 &larr; 
 
