@@ -1,5 +1,18 @@
 # Using RubyMine IDE for Hartl's Ruby on Rails Tutorial #
 
+
+---
+
+## FLASH 08/16/2012 ##
+
+>This is about to be rewritten.  I found my directions worked for Xcode 4.2 but not 4.3. Sigh.  Something about a missing yamllib file. So I have decided when I upgrade to Mountain Lion I will do a clean install and start over with these directions.  
+>
+>8/16/2012 Clean Install of Mountain Lion. 
+>
+>**Stay Tuned**
+
+---
+
 This is about how to use [RubyMine] as your editor for the [Ruby on Rails Tutorial] version 3.2 by Michael Hartl. The tutorial covers three applications.  The `first_app` is very simple, the second, `demo_app` has some active record stuff but the third `sample_app` is a full blown application with lots of good stuff to learn from. I highly recommend Michael's work over any other tutorial that I have seen especially because of the depth it goes into as well as breadth.
 
 Some of the discussion I have here is for the earlier apps but it is extremely easy to extend to other apps where easy is just change the app name when filling in new project dialog.  When I work his applications using [RubyMine] I end with `_project` instead of `_app`.  I do this because I worked the tutorial with Sublime Text 2 and wanted to  distinguish easily between them.
