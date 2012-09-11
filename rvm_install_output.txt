@@ -1,0 +1,156 @@
+$ curl -L https://get.rvm.io | bash -s stable --rails
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   185  100   185    0     0    324      0 --:--:-- --:--:-- --:--:--   469
+100  9984  100  9984    0     0   7228      0  0:00:01  0:00:01 --:--:-- 79238
+Please read and follow further instructions.
+Press ENTER to continue.
+Downloading RVM from wayneeseguin branch stable
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   125  100   125    0     0    150      0 --:--:-- --:--:-- --:--:--   342
+100 1047k  100 1047k    0     0   478k      0  0:00:02  0:00:02 --:--:-- 1637k
+
+Installing RVM to /Users/loeffler/.rvm/
+    RVM PATH line found in /Users/loeffler/.bashrc /Users/loeffler/.zshrc.
+    RVM sourcing line found in /Users/loeffler/.bash_profile /Users/loeffler/.zlogin.
+
+# RVM:  Shell scripts enabling management of multiple ruby environments.
+# RTFM: https://rvm.io/
+# HELP: http://webchat.freenode.net/?channels=rvm (#rvm on irc.freenode.net)
+# Cheatsheet: http://cheat.errtheblog.com/s/rvm/
+# Screencast: http://screencasts.org/episodes/how-to-use-rvm
+
+# In case of any issues read output of 'rvm requirements' and/or 'rvm notes'
+
+Installation of RVM in /Users/loeffler/.rvm/ is almost complete:
+
+  * To start using RVM you need to run `source /Users/loeffler/.rvm/scripts/rvm`
+    in all your open shell windows, in rare cases you need to reopen all shell windows.
+
+# perfectionist,
+#
+#   Thank you for using RVM!
+#   I sincerely hope that RVM helps to make your life easier and more enjoyable!!!
+#
+# ~Wayne
+
+
+rvm 1.15.8 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+
+      1 Ruby (and needed base gems) for your selection will be installed shortly.
+      2 Before it happens, please read and execute the instructions below.
+      3 Please use a separate terminal to execute any additional commands.
+      4 Press 'q' to continue.
+Fetching yaml-0.1.4.tar.gz to /Users/loeffler/.rvm/archives
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  460k  100  460k    0     0   295k      0  0:00:01  0:00:01 --:--:--  435k
+Extracting yaml-0.1.4.tar.gz to /Users/loeffler/.rvm/src
+Configuring yaml in /Users/loeffler/.rvm/src/yaml-0.1.4.
+Compiling yaml in /Users/loeffler/.rvm/src/yaml-0.1.4.
+Installing yaml to /Users/loeffler/.rvm/usr
+Building 'ruby-1.9.3-p194' using clang - but it's not (fully) supported, expect errors.
+Installing Ruby from source to: /Users/loeffler/.rvm/rubies/ruby-1.9.3-p194, this may take a while depending on your cpu(s)...
+
+ruby-1.9.3-p194 - #downloading ruby-1.9.3-p194, this may take a while depending on your connection...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 9610k  100 9610k    0     0   571k      0  0:00:16  0:00:16 --:--:--  798k
+ruby-1.9.3-p194 - #extracting ruby-1.9.3-p194 to /Users/loeffler/.rvm/src/ruby-1.9.3-p194
+ruby-1.9.3-p194 - #extracted to /Users/loeffler/.rvm/src/ruby-1.9.3-p194
+ruby-1.9.3-p194 - #configuring 
+ruby-1.9.3-p194 - #compiling 
+ruby-1.9.3-p194 - #installing 
+Retrieving rubygems-1.8.24
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  371k  100  371k    0     0   367k      0  0:00:01  0:00:01 --:--:--  784k
+Extracting rubygems-1.8.24 ...
+Removing old Rubygems files...
+Installing rubygems-1.8.24 for ruby-1.9.3-p194 ...
+Installation of rubygems completed successfully.
+ruby-1.9.3-p194 - adjusting #shebangs for (gem irb erb ri rdoc testrb rake).
+ruby-1.9.3-p194 - #importing default gemsets (/Users/loeffler/.rvm/gemsets/)
+Install of ruby-1.9.3-p194 - #complete 
+Ruby 'ruby-1.9.3-p194' was built using clang - but it's not (fully) supported, expect errors.
+
+RVM is not a function, selecting rubies with 'rvm use ...' will not work.
+You need to change your terminal settings to allow shell login.
+Please visit https://rvm.io/workflow/screen/ for example.
+
+Creating alias default for ruby-1.9.3-p194.
+Recording alias default for ruby-1.9.3-p194.
+Creating default links/files
+Fetching: i18n-0.6.1.gem (100%)
+Fetching: multi_json-1.3.6.gem (100%)
+Fetching: activesupport-3.2.8.gem (100%)
+Fetching: builder-3.0.0.gem (100%)
+Fetching: activemodel-3.2.8.gem (100%)
+Fetching: rack-1.4.1.gem (100%)
+Fetching: rack-cache-1.2.gem (100%)
+Fetching: rack-test-0.6.1.gem (100%)
+Fetching: journey-1.0.4.gem (100%)
+Fetching: hike-1.2.1.gem (100%)
+Fetching: tilt-1.3.3.gem (100%)
+Fetching: sprockets-2.1.3.gem (100%)
+Fetching: erubis-2.7.0.gem (100%)
+Fetching: actionpack-3.2.8.gem (100%)
+Fetching: arel-3.0.2.gem (100%)
+Fetching: tzinfo-0.3.33.gem (100%)
+Fetching: activerecord-3.2.8.gem (100%)
+Fetching: activeresource-3.2.8.gem (100%)
+Fetching: mime-types-1.19.gem (100%)
+Fetching: polyglot-0.3.3.gem (100%)
+Fetching: treetop-1.4.10.gem (100%)
+Fetching: mail-2.4.4.gem (100%)
+Fetching: actionmailer-3.2.8.gem (100%)
+Fetching: rack-ssl-1.3.2.gem (100%)
+Fetching: thor-0.16.0.gem (100%)
+Fetching: json-1.7.5.gem (100%)
+Building native extensions.  This could take a while...
+Fetching: rdoc-3.12.gem (100%)
+Depending on your version of ruby, you may need to install ruby rdoc/ri data:
+
+<= 1.8.6 : unsupported
+ = 1.8.7 : gem install rdoc-data; rdoc-data --install
+ = 1.9.1 : gem install rdoc-data; rdoc-data --install
+>= 1.9.2 : nothing to do! Yay!
+Fetching: railties-3.2.8.gem (100%)
+Fetching: rails-3.2.8.gem (100%)
+Successfully installed i18n-0.6.1
+Successfully installed multi_json-1.3.6
+Successfully installed activesupport-3.2.8
+Successfully installed builder-3.0.0
+Successfully installed activemodel-3.2.8
+Successfully installed rack-1.4.1
+Successfully installed rack-cache-1.2
+Successfully installed rack-test-0.6.1
+Successfully installed journey-1.0.4
+Successfully installed hike-1.2.1
+Successfully installed tilt-1.3.3
+Successfully installed sprockets-2.1.3
+Successfully installed erubis-2.7.0
+Successfully installed actionpack-3.2.8
+Successfully installed arel-3.0.2
+Successfully installed tzinfo-0.3.33
+Successfully installed activerecord-3.2.8
+Successfully installed activeresource-3.2.8
+Successfully installed mime-types-1.19
+Successfully installed polyglot-0.3.3
+Successfully installed treetop-1.4.10
+Successfully installed mail-2.4.4
+Successfully installed actionmailer-3.2.8
+Successfully installed rack-ssl-1.3.2
+Successfully installed thor-0.16.0
+Successfully installed json-1.7.5
+Successfully installed rdoc-3.12
+Successfully installed railties-3.2.8
+Successfully installed rails-3.2.8
+29 gems installed
+
+  * To start using RVM you need to run `source /Users/loeffler/.rvm/scripts/rvm`
+    in all your open shell windows, in rare cases you need to reopen all shell windows.
+
+  * To start using rails you need to run `rails new <project_dir>`.
+
