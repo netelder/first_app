@@ -1,6 +1,6 @@
 # Using RubyMine IDE for Hartl's Ruby on Rails Tutorial #
 
-
+'[[_TOC_]]
 
 
 ## FLASH 08/16/2012 ##
