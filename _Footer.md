@@ -7,6 +7,6 @@ Edited with [**Multimarkdown Composer**](http://multimarkdown.com/) and reviewed
 {{{ blue-modern
   alice->bob: Test
   bob->alice: Test response
-}}}
+ }}}
 
 \[ P(E) = {n \choose k} p^k (1-p)^{ n-k} \]
