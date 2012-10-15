@@ -136,7 +136,8 @@ Here are some of the version changes from 4.4.1 to 4.5.1
     
       * To start using RVM you need to run `source /Users/loeffler/.rvm/scripts/rvm`
         in all your open shell windows, in rare cases you need to reopen all shell windows.
-
+        
+<a name="cd"></a>
 ### [`cd` function](id:cd)
 
     cd () 
@@ -153,6 +154,7 @@ Here are some of the version changes from 4.4.1 to 4.5.1
         fi
     }
 
+<a name="rvmrc"></a>
 ### [.rvmrc file](id:rvmrc)
     
     #!/usr/bin/env bash
@@ -203,7 +205,8 @@ Here are some of the version changes from 4.4.1 to 4.5.1
     # then
     #   bundle install | GREP_OPTIONS= \grep -vE '^Using|Your bundle is complete'
     # fi
-    
+
+<a name="gems"></a>
 ### [Gems and Gemset with `.rvmrc` File.](id:gems)
 First is a list of gems outside the project with the normal default gemset.  Then after `cd`'ing into project directory the list includes all the gems needed for the rails project.  
 
