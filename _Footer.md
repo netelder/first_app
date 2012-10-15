@@ -8,3 +8,4 @@ Edited with [**Multimarkdown Composer**](http://multimarkdown.com/) and reviewed
 
 \[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \]
 
+:bowtie:
