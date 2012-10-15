@@ -50,7 +50,7 @@ This creates a [`.rvmrc`](#rvmrc).  The [rvm] setup defines  a number of functio
 
 ## Ruby on Rails Version Installed ##
 
-### Update and/or Install Command Line Tools [cli_update]
+### [Update and/or Install Command Line Tools](id:cli_update)
 This is the window in Xcode for installing or updating the command line tools.  This is from Xcode 4.5.1 and since I had already installed them under 4.4.1 I just had to update. I verified that tools updated.  `Git` and a few others had new versions.  `Gcc` stayed the same version.
 
 ![](images/ml_update_cli_tools.png)
@@ -73,7 +73,7 @@ Here are some of the version changes from 4.4.1 to 4.5.1
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
     
 
-### RVM and Ruby Install Output [output]
+### [RVM and Ruby Install Output](id:output)
 
     curl -L https://get.rvm.io | bash -s stable --ruby
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -137,7 +137,7 @@ Here are some of the version changes from 4.4.1 to 4.5.1
       * To start using RVM you need to run `source /Users/loeffler/.rvm/scripts/rvm`
         in all your open shell windows, in rare cases you need to reopen all shell windows.
 
-### `cd` function [cd]
+### [`cd` function](id:cd)
 
     cd () 
     { 
@@ -153,7 +153,7 @@ Here are some of the version changes from 4.4.1 to 4.5.1
         fi
     }
 
-### .rvmrc file [rvmrc]
+### [.rvmrc file](id:rvmrc)
     
     #!/usr/bin/env bash
     
@@ -204,7 +204,7 @@ Here are some of the version changes from 4.4.1 to 4.5.1
     #   bundle install | GREP_OPTIONS= \grep -vE '^Using|Your bundle is complete'
     # fi
     
-### Gems and Gemset with `.rvmrc` File. [gems]
+### [Gems and Gemset with `.rvmrc` File.](id:gems)
 First is a list of gems outside the project with the normal default gemset.  Then after `cd`'ing into project directory the list includes all the gems needed for the rails project.  
 
 **Gems** outside and inside project directory
