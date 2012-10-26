@@ -1,8 +1,16 @@
 # Using RubyMine IDE for Ruby on Rails Tutorial #
 
-The instructions here are for the `first_app` but apply for the `sample_app` as well. Just be sure to follow [Ruby on Rails Tutorial] instructions for `Gemfile`
 
-These are notes about using RubyMIne to setup the **`first_app`** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intent is to show how to use [RubyMine] version 4 as the editor (and more) for the tutorial. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![rewrite][]
+
+[rewrite]: images/rewrite.png
+
+TODO: Redo this for the **demo_project** to show how you can create a project inside of **RubyMine**.   But also be sure to create `.rvmrc` file for times when you want to run rails from the command line.
+
+The instructions here are for the **first_app** but apply for the **sample_app** as well. Just be sure to follow [Ruby on Rails Tutorial] instructions for **Gemfile**
+
+These are notes about using RubyMIne to setup the **first_app** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intent is to show how to use [RubyMine] version 4 as the editor  for the tutorial and more. 
 
 This is the [RubyMine] menubar:
 

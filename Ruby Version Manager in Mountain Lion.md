@@ -2,7 +2,7 @@ Before Mountain Lion was released we took a vacation and decided to take just on
 a user account on my wife's Mac and started installing applications and customizing my environment so I could do
 some Rails work.  Just a few days before we left I ran into problems with my old directions. There were issues with `yaml`. I was on OS 10.7 with Xcode 4.3 but I had been on Xcode 4.2 on my machine when I originally installed `[rvm]`. I did not like all the different solutions out there so I put off doing any work over vacation.
 
-During vacation [Mountain Lion] was released.  When I returned I decided to [update my computer] with a clean install of [Mountain Lion]. A clean install can, if done correctly, can zap all the old bad stuff while still preserving your data. This took over a week of trying because of issues I had with iWork '09 but more important with deciding between `rbenv` and `[rvm]` ([RubyMine] works with both).  I would try something and rather than try to back out I would erase the disk and start over only transferring my user files and computer/network settings from my backup disk.
+During vacation [Mountain Lion] was released.  When I returned I decided to [update my computer] with a clean install of [Mountain Lion]. A clean install can, if done correctly,  zap all the old bad stuff while still preserving your data. This took over a week of trying because of issues I had with iWork '09 but more important with deciding between `rbenv` and `[rvm]` ([RubyMine] works with both).  I would try something and rather than try to back out I would erase the disk and start over only transferring my user files and computer/network settings from my backup disk.
 
 Finally I found the magic sauce and, am embarrassed to say, it was too easy.
 
@@ -84,7 +84,7 @@ Steps I took after installing my [basic application set] to work with the **firs
    
     `$ rails new first_project`
    
-    This creates the `first_project` directory, a `Gemfile` and the whole rails eco system.
+    This creates the `first_project` directory, a `Gemfile` and the whole rails eco system. The output from creating the project is shown [below](#firstprojectoutput).
    
 8. **Add the `.rvmrc` file.**
    
@@ -107,9 +107,9 @@ The first project does not need any editing and can be run from the command line
 
 ## Supporting Documentation ##
 
-
 <a name="cli_update"></a>
-### [Update and/or Install Command Line Tools](id:cli_update)
+### Update and/or Install Command Line Tools ###
+
 This is the window in Xcode for installing or updating the command line tools.  This is from Xcode 4.5.1 and since I had already installed them under 4.4.1 I just had to update. I verified that tools updated.  `git` and a few others had new versions.  `gcc` stayed the same version.
 
 ![Command Line Install Window](images/ml_update_cli_tools.png)
@@ -128,7 +128,7 @@ Here are a couple of command line tool version changes from Xcode 4.4.1 to 4.5.1
 	warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	    
 <a name="output"></a>
-### [RVM and Ruby Install Output](id:output)
+### RVM and Ruby Install Output
 
     curl -L https://get.rvm.io | bash -s stable --ruby
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -193,7 +193,7 @@ Here are a couple of command line tool version changes from Xcode 4.4.1 to 4.5.1
         in all your open shell windows, in rare cases you need to reopen all shell windows.
         
 <a name="cdfunction"></a>
-### [`cd` function](id:cdfunction)###
+### `cd` function ###
 
     cd () 
     { 
@@ -211,8 +211,7 @@ Here are a couple of command line tool version changes from Xcode 4.4.1 to 4.5.1
 
 
 <a name="rvmfunciton"></a>
-###[`rvm` Function](Id:rvmfunction) ###
-
+###`rvm` Function ###
 
 	rvm () 
 	{ 
@@ -494,7 +493,7 @@ Here are a couple of command line tool version changes from Xcode 4.4.1 to 4.5.1
 	
 	
 <a name="gemsets"></a>
-###[Listing Gemsets](id:gemsets) ###
+###Listing Gemsets ###
 
 `rvm` will add `ruby-` to gemset name if necessary when the gemset is created.
 
@@ -510,8 +509,8 @@ rvm gemsets
 ```
 
 
-
-### `.rvmrc` File [rvmrc] ###
+<a name="rvmrc"></a>
+### `.rvmrc` File ###
 
 ```bash 
 #!/usr/bin/env bash
@@ -566,7 +565,8 @@ fi
 ```
 
 <a name="gems"></a>
-### [Gems and Gemset with `.rvmrc` File.](id:gems)
+### Gems and Gemset with `.rvmrc` File. ###
+
 First is a list of gems outside the project with the normal default gemset.  Then after `cd`'ing into project directory the list includes all the gems needed for the rails project.  
 
 **Gems** outside and inside project directory
@@ -619,138 +619,26 @@ First is a list of gems outside the project with the normal default gemset.  The
 
 ----
 
-Another interesting feature is where 
+Another interesting feature is where executables are.  `ruby` is in the ruby gemset `bin` directory and `bundle` is in the **global** version of the gemset.  Rails is in the **first_project** gemset we defined (since we are in the `first_project` directory and have defined a `.rvmrc` file). 
 
-    [loeffler@MBP17i7 sample_project (master)]$ type ruby
+    [loeffler@MBP17i7 first_project]$ type ruby
     ruby is /Users/loeffler/.rvm/rubies/ruby-1.9.3-p194/bin/ruby
-    [loeffler@MBP17i7 sample_project (master)]$ type bundle
-    bundle is /Users/loeffler/.rvm/gems/ruby-1.9.3-p194@global/bin/bundle
-    [loeffler@MBP17i7 sample_project (master)]$ type rails
-    rails is /Users/loeffler/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/bin/rails
+     [loeffler@MBP17i7 first_project]$ type bundlebundle is /Users/loeffler/.rvm/gems/ruby-1.9.3-p194@global/bin/bundle
+    [loeffler@MBP17i7 first_project]$ type rails
+    rails is /Users/loeffler/.rvm/gems/ruby-1.9.3-p194@first_project/bin/rails
+        
 
-Command Line tool install put in 
 
-	$ git --version
-	git version 1.7.9.6 (Apple Git-31.1)
-	git version 1.7.10.2 (Apple Git-33)   
-	
-	$ gcc --version
-	i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
-	Copyright (C) 2007 Free Software Foundation, Inc.
-	This is free software; see the source for copying conditions.  There is NO
-	warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-	
-	i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
-    Copyright (C) 2007 Free Software Foundation, Inc.
-    This is free software; see the source for copying conditions.  There is NO
-    warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-    
-    $ ruby --version
-    ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin12.1.0]  
-    
-    ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin12.2.0]  
-    
-    $ rails --version
-    Rails 3.2.8
-    
-```
-loeffler=# \l
-                                     List of databases
-            Name            |  Owner   | Encoding | Collate | Ctype |   Access privileges   
-----------------------------+----------+----------+---------+-------+-----------------------
- loeffler                   | loeffler | UTF8     | en_US   | en_US | 
- postgres                   | loeffler | UTF8     | en_US   | en_US | 
- sample_project_development | loeffler | UTF8     | en_US   | en_US | 
- sample_project_test        | loeffler | UTF8     | en_US   | en_US | 
-```
 
-```
-[loeffler@MBP17i7 sample_project (master)]$ 
-```
-
-```
-[loeffler@MBP17i7 sample_project (master)]$ type ruby
-ruby is /Users/loeffler/.rvm/rubies/ruby-1.9.3-p194/bin/ruby
-[loeffler@MBP17i7 sample_project (master)]$ type bundle
-bundle is /Users/loeffler/.rvm/gems/ruby-1.9.3-p194@global/bin/bundle
-[loeffler@MBP17i7 sample_project (master)]$ type rails
-rails is /Users/loeffler/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/bin/rails
-```
-
-```
-[loeffler@MBP17i7 first_project]$ gem install rails -v 3.2.8
-Fetching: i18n-0.6.1.gem (100%)
-Fetching: multi_json-1.3.6.gem (100%)
-Fetching: activesupport-3.2.8.gem (100%)
-Fetching: builder-3.0.4.gem (100%)
-Fetching: activemodel-3.2.8.gem (100%)
-Fetching: rack-1.4.1.gem (100%)
-Fetching: rack-cache-1.2.gem (100%)
-Fetching: rack-test-0.6.2.gem (100%)
-Fetching: journey-1.0.4.gem (100%)
-Fetching: hike-1.2.1.gem (100%)
-Fetching: tilt-1.3.3.gem (100%)
-Fetching: sprockets-2.1.3.gem (100%)
-Fetching: erubis-2.7.0.gem (100%)
-Fetching: actionpack-3.2.8.gem (100%)
-Fetching: arel-3.0.2.gem (100%)
-Fetching: tzinfo-0.3.33.gem (100%)
-Fetching: activerecord-3.2.8.gem (100%)
-Fetching: activeresource-3.2.8.gem (100%)
-Fetching: mime-types-1.19.gem (100%)
-Fetching: polyglot-0.3.3.gem (100%)
-Fetching: treetop-1.4.11.gem (100%)
-Fetching: mail-2.4.4.gem (100%)
-Fetching: actionmailer-3.2.8.gem (100%)
-Fetching: rack-ssl-1.3.2.gem (100%)
-Fetching: thor-0.16.0.gem (100%)
-Fetching: json-1.7.5.gem (100%)
-Building native extensions.  This could take a while...
-Fetching: rdoc-3.12.gem (100%)
-Depending on your version of ruby, you may need to install ruby rdoc/ri data:
-
-<= 1.8.6 : unsupported
- = 1.8.7 : gem install rdoc-data; rdoc-data --install
- = 1.9.1 : gem install rdoc-data; rdoc-data --install
->= 1.9.2 : nothing to do! Yay!
-Fetching: railties-3.2.8.gem (100%)
-Fetching: rails-3.2.8.gem (100%)
-Successfully installed i18n-0.6.1
-Successfully installed multi_json-1.3.6
-Successfully installed activesupport-3.2.8
-Successfully installed builder-3.0.4
-Successfully installed activemodel-3.2.8
-Successfully installed rack-1.4.1
-Successfully installed rack-cache-1.2
-Successfully installed rack-test-0.6.2
-Successfully installed journey-1.0.4
-Successfully installed hike-1.2.1
-Successfully installed tilt-1.3.3
-Successfully installed sprockets-2.1.3
-Successfully installed erubis-2.7.0
-Successfully installed actionpack-3.2.8
-Successfully installed arel-3.0.2
-Successfully installed tzinfo-0.3.33
-Successfully installed activerecord-3.2.8
-Successfully installed activeresource-3.2.8
-Successfully installed mime-types-1.19
-Successfully installed polyglot-0.3.3
-Successfully installed treetop-1.4.11
-Successfully installed mail-2.4.4
-Successfully installed actionmailer-3.2.8
-Successfully installed rack-ssl-1.3.2
-Successfully installed thor-0.16.0
-Successfully installed json-1.7.5
-Successfully installed rdoc-3.12
-Successfully installed railties-3.2.8
-Successfully installed rails-3.2.8
-29 gems installed
-```
 ```
 [loeffler@MBP17i7 ~]$ rvm use 1.9.3-p194@first_project --create
 Using /Users/loeffler/.rvm/gems/ruby-1.9.3-p194 with gemset first_project
 ```
 
+<a name="firstprojectoutput"></a>
+### Creating `first_project` ###
+
+This is the output from creating the new rails project, `first_project`.
 
 ```
 $ rails new first_project
