@@ -77,13 +77,20 @@ Steps I took after installing my [basic application set] to work with the **firs
     gem only for the open Terminal (or iTerm) shell you are working in.  [Listing the **gemsets**](#gemsets) shows `rvm` adds `ruby-` to 
     gemset name.
 
+8. **Install Rails**   
+    Now we need to install rails before we can create the project.
+     `$ gem install rails -v 3.2.8`
+
+    This installs version 3.2.8 of rails into the `ruby-1.9.3-p194@first_project` gemset.
+    The output for installing the rails is shown [below](#railsinstall)
+
 7. **Create the project directory.**  
     Do this my creating the rails project.  In this case the project is `first_project`.  First `cd` 
     to the directory holding your rails project(s). In my case this directory is `~/RubyMine` then 
-    create the project with:  
+    create the project with:    
    
-    `$ rails new first_project`
-   
+    `$ rails new first_project`  
+    
     This creates the `first_project` directory, a `Gemfile` and the whole rails eco system. The output from creating the project is shown [below](#firstprojectoutput).
    
 8. **Add the `.rvmrc` file.**
@@ -507,62 +514,135 @@ rvm gemsets
    ruby-1.9.3-p194@global [ x86_64 ]
    ruby-1.9.3-p194@rails3tutorial2ndEd [ x86_64 ]
 ```
+<a name='railsinstall"></a>
+###Rails Install Output###
+
+
+	$ gem install rails -v 3.2.8
+	Fetching: i18n-0.6.1.gem (100%)
+	Fetching: multi_json-1.3.7.gem (100%)
+	Fetching: activesupport-3.2.8.gem (100%)
+	Fetching: builder-3.0.4.gem (100%)
+	Fetching: activemodel-3.2.8.gem (100%)
+	Fetching: rack-1.4.1.gem (100%)
+	Fetching: rack-cache-1.2.gem (100%)
+	Fetching: rack-test-0.6.2.gem (100%)
+	Fetching: journey-1.0.4.gem (100%)
+	Fetching: hike-1.2.1.gem (100%)
+	Fetching: tilt-1.3.3.gem (100%)
+	Fetching: sprockets-2.1.3.gem (100%)
+	Fetching: erubis-2.7.0.gem (100%)
+	Fetching: actionpack-3.2.8.gem (100%)
+	Fetching: arel-3.0.2.gem (100%)
+	Fetching: tzinfo-0.3.35.gem (100%)
+	Fetching: activerecord-3.2.8.gem (100%)
+	Fetching: activeresource-3.2.8.gem (100%)
+	Fetching: mime-types-1.19.gem (100%)
+	Fetching: polyglot-0.3.3.gem (100%)
+	Fetching: treetop-1.4.12.gem (100%)
+	Fetching: mail-2.4.4.gem (100%)
+	Fetching: actionmailer-3.2.8.gem (100%)
+	Fetching: rack-ssl-1.3.2.gem (100%)
+	Fetching: thor-0.16.0.gem (100%)
+	Fetching: json-1.7.5.gem (100%)
+	Building native extensions.  This could take a while...
+	Fetching: rdoc-3.12.gem (100%)
+	Depending on your version of ruby, you may need to install ruby rdoc/ri data:
+	
+	<= 1.8.6 : unsupported
+	 = 1.8.7 : gem install rdoc-data; rdoc-data --install
+	 = 1.9.1 : gem install rdoc-data; rdoc-data --install
+	>= 1.9.2 : nothing to do! Yay!
+	Fetching: railties-3.2.8.gem (100%)
+	Fetching: rails-3.2.8.gem (100%)
+	Successfully installed i18n-0.6.1
+	Successfully installed multi_json-1.3.7
+	Successfully installed activesupport-3.2.8
+	Successfully installed builder-3.0.4
+	Successfully installed activemodel-3.2.8
+	Successfully installed rack-1.4.1
+	Successfully installed rack-cache-1.2
+	Successfully installed rack-test-0.6.2
+	Successfully installed journey-1.0.4
+	Successfully installed hike-1.2.1
+	Successfully installed tilt-1.3.3
+	Successfully installed sprockets-2.1.3
+	Successfully installed erubis-2.7.0
+	Successfully installed actionpack-3.2.8
+	Successfully installed arel-3.0.2
+	Successfully installed tzinfo-0.3.35
+	Successfully installed activerecord-3.2.8
+	Successfully installed activeresource-3.2.8
+	Successfully installed mime-types-1.19
+	Successfully installed polyglot-0.3.3
+	Successfully installed treetop-1.4.12
+	Successfully installed mail-2.4.4
+	Successfully installed actionmailer-3.2.8
+	Successfully installed rack-ssl-1.3.2
+	Successfully installed thor-0.16.0
+	Successfully installed json-1.7.5
+	Successfully installed rdoc-3.12
+	Successfully installed railties-3.2.8
+	Successfully installed rails-3.2.8
+	29 gems installed
+	
 
 
 <a name="rvmrc"></a>
 ### `.rvmrc` File ###
 
 ```bash 
-#!/usr/bin/env bash
 
-# This is an RVM Project .rvmrc file, used to automatically load the ruby
-# development environment upon cd'ing into the directory
-
-# First we specify our desired <ruby>[@<gemset>], the @gemset name is optional,
-# Only full ruby name is supported here, for short names use:
-#     echo "rvm use 1.9.3" > .rvmrc
-environment_id="ruby-1.9.3-p194@first_project"
-
-# Uncomment the following lines if you want to verify rvm version per project
-# rvmrc_rvm_version="1.16.11 (stable)" # 1.10.1 seams as a safe start
-# eval "$(echo ${rvm_version}.${rvmrc_rvm_version} | awk -F. '{print "[[ "$1*65536+$2*256+$3" -ge "$4*65536+$5*256+$6" ]]"}' )" || {
-#   echo "This .rvmrc file requires at least RVM ${rvmrc_rvm_version}, aborting loading."
-#   return 1
-# }
-
-# First we attempt to load the desired environment directly from the environment
-# file. This is very fast and efficient compared to running through the entire
-# CLI and selector. If you want feedback on which environment was used then
-# insert the word 'use' after --create as this triggers verbose mode.
-if [[ -d "${rvm_path:-$HOME/.rvm}/environments"
-  && -s "${rvm_path:-$HOME/.rvm}/environments/$environment_id" ]]
-then
-  \. "${rvm_path:-$HOME/.rvm}/environments/$environment_id"
-  [[ -s "${rvm_path:-$HOME/.rvm}/hooks/after_use" ]] &&
-    \. "${rvm_path:-$HOME/.rvm}/hooks/after_use" || true
-else
-  # If the environment file has not yet been created, use the RVM CLI to select.
-  rvm --create  "$environment_id" || {
-    echo "Failed to create RVM environment '${environment_id}'."
-    return 1
-  }
-fi
-
-# If you use bundler, this might be useful to you:
-# if [[ -s Gemfile ]] && {
-#   ! builtin command -v bundle >/dev/null ||
-#   builtin command -v bundle | GREP_OPTIONS= \grep $rvm_path/bin/bundle >/dev/null
-# }
-# then
-#   printf "%b" "The rubygem 'bundler' is not installed. Installing it now.\n"
-#   gem install bundler
-# fi
-# if [[ -s Gemfile ]] && builtin command -v bundle >/dev/null
-# then
-#   bundle install | GREP_OPTIONS= \grep -vE '^Using|Your bundle is complete'
-# Fi #
-
-```
+	#!/usr/bin/env bash
+	
+	# This is an RVM Project .rvmrc file, used to automatically load the ruby
+	# development environment upon cd'ing into the directory
+	
+	# First we specify our desired <ruby>[@<gemset>], the @gemset name is optional,
+	# Only full ruby name is supported here, for short names use:
+	#     echo "rvm use 1.9.3" > .rvmrc
+	environment_id="ruby-1.9.3-p194@first_project"
+	
+	# Uncomment the following lines if you want to verify rvm version per project
+	# rvmrc_rvm_version="1.16.11 (stable)" # 1.10.1 seams as a safe start
+	# eval "$(echo ${rvm_version}.${rvmrc_rvm_version} | awk -F. '{print "[[ "$1*65536+$2*256+$3" -ge "$4*65536+$5*256+$6" ]]"}' )" || {
+	#   echo "This .rvmrc file requires at least RVM ${rvmrc_rvm_version}, aborting loading."
+	#   return 1
+	# }
+	
+	# First we attempt to load the desired environment directly from the environment
+	# file. This is very fast and efficient compared to running through the entire
+	# CLI and selector. If you want feedback on which environment was used then
+	# insert the word 'use' after --create as this triggers verbose mode.
+	if [[ -d "${rvm_path:-$HOME/.rvm}/environments"
+	  && -s "${rvm_path:-$HOME/.rvm}/environments/$environment_id" ]]
+	then
+	  \. "${rvm_path:-$HOME/.rvm}/environments/$environment_id"
+	  [[ -s "${rvm_path:-$HOME/.rvm}/hooks/after_use" ]] &&
+	    \. "${rvm_path:-$HOME/.rvm}/hooks/after_use" || true
+	else
+	  # If the environment file has not yet been created, use the RVM CLI to select.
+	  rvm --create  "$environment_id" || {
+	    echo "Failed to create RVM environment '${environment_id}'."
+	    return 1
+	  }
+	fi
+	
+	# If you use bundler, this might be useful to you:
+	# if [[ -s Gemfile ]] && {
+	#   ! builtin command -v bundle >/dev/null ||
+	#   builtin command -v bundle | GREP_OPTIONS= \grep $rvm_path/bin/bundle >/dev/null
+	# }
+	# then
+	#   printf "%b" "The rubygem 'bundler' is not installed. Installing it now.\n"
+	#   gem install bundler
+	# fi
+	# if [[ -s Gemfile ]] && builtin command -v bundle >/dev/null
+	# then
+	#   bundle install | GREP_OPTIONS= \grep -vE '^Using|Your bundle is complete'
+	# Fi #
+	
+	```
 
 <a name="gems"></a>
 ### Gems and Gemset with `.rvmrc` File. ###

@@ -8,20 +8,45 @@
 
 TODO: Redo this for the **demo_project** to show how you can create a project inside of **RubyMine**.   But also be sure to create `.rvmrc` file for times when you want to run rails from the command line.
 
-The instructions here are for the **first_app** but apply for the **sample_app** as well. Just be sure to follow [Ruby on Rails Tutorial] instructions for **Gemfile**
+The instructions here are for the **first_project** but apply for the **demo_project** and **sample_project** as well. Just be sure to follow [Ruby on Rails Tutorial] instructions for **Gemfile**
 
-These are notes about using RubyMIne to setup the **first_app** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intent is to show how to use [RubyMine] version 4 as the editor  for the tutorial and more. 
+These are notes about using RubyMIne to setup the **first_project** of Michael Hartl's [Ruby on Rails Tutorial] 2nd edition.  The intent is to show how to use [RubyMine] version 4 as the editor  for the tutorial and more. 
 
-This is the [RubyMine] menubar:
+<a name="rvmgemset"></a>
+## RVM gemset ##
 
-![Figure 1. RubyMine Menubar][RubyMine Menubar]
+It is possible to initiate a new project from inside [RubyMine] but I advocate a different approach.  
 
-I will be referring to menubar items below, especially the
-**RubyMine**, **File** , **Run**, **Tools**, and **VCS** tabs.
+2. [Define a new gemset for `first_project`](#newgemset)
+4. [Create New Rails Project](#newrailsproject)
+5. [Add RVM resource File](#newresourcefile)
+6. [Open Project in RubyMine](#openproject)
+7. [Setup IDE](#setup)
+8. [Start Rails](#startrails)
+9. Do coding … 
 
-**Important Note**
-It seems [RubyMine]'s memory footprint grows the longer I leave it
-open. 
+
+
+<a name="newgemset"></a>
+## Define New Gemset for first_project ##
+
+Defining gemset and loading rails for the **first_project**
+
+	rvm use 1.9.3-p194@first_project --create
+	
+
+<a name="newrailsproject"></a>
+## Create New Rails Project ##
+
+	rails new first_project
+
+<a name="newresourcefile"></a>
+## Add New RVM Resouce File ##
+
+
+<a name="openproject"></a>
+## Open Project in RubyMine] ##
+
 
 <a name="setup"></a>
 ## Setup IDE ##
@@ -42,6 +67,12 @@ gemsets for ruby-1.9.3-p125 (found in /Users/loeffler/.rvm/gems/ruby-1.9.3-p125)
 ```
 
 The `rail3tutorial2ndEd` was defined following directions in [Ruby on Rails Tutorial].
+
+<a name="startrails"></a>
+## Start Rails ##
+
+* * * 
+**MORE TODO**
 
 <a name="first app"></a>
 ## Create First Application ##
