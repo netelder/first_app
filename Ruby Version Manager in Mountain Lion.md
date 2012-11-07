@@ -217,7 +217,7 @@ Here are a couple of command line tool version changes from Xcode 4.4.1 to 4.5.1
     }
 
 
-<a name="rvmfunciton"></a>
+<a name="rvmfunction"></a>
 ###`rvm` Function ###
 
 	rvm () 
@@ -514,7 +514,7 @@ rvm gemsets
    ruby-1.9.3-p194@global [ x86_64 ]
    ruby-1.9.3-p194@rails3tutorial2ndEd [ x86_64 ]
 ```
-<a name='railsinstall"></a>
+<a name="railsinstall"></a>
 ###Rails Install Output###
 
 
