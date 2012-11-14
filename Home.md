@@ -23,7 +23,7 @@ What editors have I tried?  Well, [Aquamacs] was my first choice because I am a 
 
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
-[Version Control with Git using RubyMine]:https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager
+[Version Control with Git using RubyMine]:https://github.com/perfectionist/sample_project/wiki/Using-Git-In-RubyMine
 [RVM and Ruby Installation]: https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager-in-Mountain-Lion
 [Running Spork Server]: https://github.com/perfectionist/sample_project/wiki/Running-Spork-in-RubyMine
 [Convert to PostgreSQL for development and testing]:  https://github.com/perfectionist/sample_project/wiki/Convert-to-PostgreSQL 
