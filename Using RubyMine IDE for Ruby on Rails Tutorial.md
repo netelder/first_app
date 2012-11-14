@@ -45,7 +45,7 @@ Be sure you are in the projects directory when creating the `.rvmrc` file. This 
 	rvm --rvmrc ruby-1.9.3-p194@first_project
 
 <a name="openproject"></a>
-## Open Project in RubyMine] ##
+## Open Project in RubyMine ##
 
 After starting [RubyMine] you can make the **first_project** a RubyMine project by selecting **Open Directory…** and navigating to the **first_project** directory and tapping the **Choose** button.
 
@@ -197,24 +197,6 @@ Then make sure of the files you want to commit, add the _Initial commit_ comment
 In the **Version Control Console** you can view the results of running the git commit command (this is the same as if you ran it from the command line).
 
 ![Git Version Control Console after Commit](images/GitVersionControlConsoleAfterCommit.png)
-
-<a name="startrails"></a>
-## Start Rails##
-
-
-
-To see the gem sets defined on your system use `rvm gemset list`:
-
-```bash
-$ rvm gemset list
-
-gemsets for ruby-1.9.3-p125 (found in /Users/loeffler/.rvm/gems/ruby-1.9.3-p125)
-   global
-=> rails3tutorial2ndEd
-   sasbook
-```
-
-The `rail3tutorial2ndEd` was defined following directions in [Ruby on Rails Tutorial].
 
 <a name="startrails"></a>
 ## Start Rails ##
