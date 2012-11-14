@@ -7,11 +7,13 @@ I have updated these directions after I updated my MacBook Pro to run Mountain L
 
 When I worked though Hartl's applications using [RubyMine] I ended project names with **_project** instead of **_app**.  I do this because I worked the tutorial with Sublime Text 2 and wanted to  distinguish easily between the applications.
 
-* [RVM] easy to upgrade to newer version of Ruby and  [Ruby on Rails].  
-* [Setting up RubyMine IDE][Rails Tutorial Notes]. 
-* [Version Control] with Git using [RubyMine]
-* [Running Spork Server] inside [RubyMine]
-* [Convert to PostgreSQL] for development and testing
+Table of Contents
+
+* [RVM and Ruby Installation]
+* [Setting up RubyMine IDE][Rails Tutorial Notes]
+* [Version Control with Git using RubyMine]
+* [Running Spork Server inside RubyMine]
+* [Convert to PostgreSQL for development and testing]
 * [Data Model] for Sample App starting in chapter 6.
 * [Rails Console] running inside [RubyMine]
 * [Extras]
@@ -21,10 +23,10 @@ What editors have I tried?  Well, [Aquamacs] was my first choice because I am a 
 
 
 [Additional References]: https://github.com/perfectionist/sample_project/wiki/AdditionalReferences
-[Version Control]:https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager
-[RVM]: https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager-in-Mountain-Lion
+[Version Control with Git using RubyMine]:https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager
+[RVM and Ruby Installation]: https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager-in-Mountain-Lion
 [Running Spork Server]: https://github.com/perfectionist/sample_project/wiki/Running-Spork-in-RubyMine
-[Convert to PostgreSQL]:  https://github.com/perfectionist/sample_project/wiki/Convert-to-PostgreSQL 
+[Convert to PostgreSQL for development and testing]:  https://github.com/perfectionist/sample_project/wiki/Convert-to-PostgreSQL 
 [Data Model]:https://github.com/perfectionist/sample_project/wiki/Data-Model-Using-RubyMine
 [Rails Console]:https://github.com/perfectionist/sample_project/wiki/Rails-Console
 [Rails Tutorial Notes]: https://github.com/perfectionist/sample_project/wiki/Using-RubyMine-IDE-for-Ruby-on-Rails-Tutorial
