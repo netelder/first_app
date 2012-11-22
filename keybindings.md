@@ -119,3 +119,23 @@ Conflicts!
 ## Favorite Abbrevs ##
 
 `des` for describe
+
+* * * 
+
+**Simple Table**
+
+| Item   | Description             | Unit<br/>Price | Quantity |   Total |  
+| :----- | :---------------------- | -------------: | :------: | ------: |  
+| Widget | The latest widget model |          $3.01 |    100   | $301.00 |  
+[Simple Table with break in header][simpletable]
+
+**Spanning a Column**
+
+| Item   | Description             | Unit Price     | Quantity |   Total |  
+| :----- | :---------------------- | -------------: | :------: | ------: |  
+| Widget | The latest widget model |          $3.01 |    100   | $301.00 |  
+| Gizmo  | The fastest gizmo       |         $30.00 |      1   |  $30.00 |
+|**Total** |||| **$331.00**|
+[Table with spanning in last row]
+
+|             |          Grouping           |||     First Header  | Second Header | Third Header ||      ------------ | :-----------: | -----------: ||   Content       | *Long Cell* |||   Content       | **Cell** |  Cell ||   New section   | More | Data ||   And more      |  And More ||[Table with multiple headers and spanning]
