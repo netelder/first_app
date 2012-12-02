@@ -1,10 +1,5 @@
 # Rails Console #
-
-The **Rails Console** can be accessed from the [RubyMine] menubar **Tools**
-
-![RubyMine menu bar](images/rubymine_menubar.png)
-
-Just select **Run Rails Console…**
+To bring up the rails console just select **Run Rails Console…**
 
 ![Tools dropdown menu](images/RailsConsole.png)
 
