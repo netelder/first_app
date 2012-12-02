@@ -144,31 +144,31 @@ In our case there are no additional arguments. *Pay attention to other the other
 <a name="git"></a>
 ## Setup GIT Repository ##
 
-At this point we do not yet have our software under version control.  [RubyMine] has tools for Git, CVS, Mercurial (Hg), and Subversion.  Setting up a git repository is straight forward but there a lot of screens as you can see below.  This screens basically do the following git commands:
+At this point we do not yet have our software under version control.  [RubyMine] has tools for [git], CVS, Mercurial ([hg]), and Subversion ([svn]).  Setting up a git repository is straight forward but there a lot of screens as you can see below.  These screens basically do the following git commands:
 
     git init
     git add .
     git commit -m "Initial commit"
 
-The difference is you get to visually see which files you are committing.  We want to avoid committing the `.idea` directory and the `.rvmrc` file. (Working alone I would add the `.rvmrc` file to the repository.)
+The difference is you visually see which files you are committing without having to use `git status`.  We want to avoid committing the `.idea` directory and the `.rvmrc` file. (Working alone I would add the `.rvmrc` file to the repository.)
 
 Select **Create Git Repository** to create the initial repository (`git init`).
 
 ![Initalize new git repository](images/GitImport.png)
 
-Then select the **first_project** directory.
+Then select the **first_project** directory (in the command line you need to be *in* the directory).
 
 ![Set git directory](images/GitSetDirectory.png)
 
-Then say **Yes**.
+Then say **Yes** to confirm you selection.
 
 ![Git init confirmation dialog](images/GitConfirmInit.png)
 
-The **Version Control Console** shows the **git** command run and the output, just like you would have run `git init` at the command line.
+The **Version Control Console** shows the **git** command ran and the output, just like you would have run `git init` at the command line.
 
 ![Git Version Control Console](images/GitVersionControlConsole.png)
 
-Now to do the `git add .` command but we'll defined the files to add. Later we might add the `.idea` directory to the `.gitignore ` file to make life easier when using the command line.
+Now to execute the `git add .` command but we'll define the files to add instead of depending on the “.” . Later we might add the `.idea` directory to the `.gitignore ` file to make life easier when using the command line.
 
 From the **VCS** menu bar item, select **Git > Add**
 
@@ -201,7 +201,6 @@ In the **Version Control Console** you can view the results of running the git c
 <a name="startrails"></a>
 ## Start Rails ##
 
-
 The rails server can be started from inside [RubyMine]. Just select **Run** from menubar and then either select **Run 'Development: first_project'** or **Run…**.  (Remember I named my app `first_project` not `first_app`.)  Here I chose the later.
 
 ![Rails Server]
@@ -214,14 +213,14 @@ The web site for [`127.0.0.1:3000`](http://127.0.0.1:3000/) shows the **Welcome 
 
 ![first project web site]
 
-The bottom section of the [RubyMine] IDE displays the server log file.
+The bottom section of the [RubyMine] IDE displays the server log file.  The left side panel has some contral actions. The key one for me is the **red square** which stops the server.
 
 ![Rails Server Log]
 
 
 * * * 
 
-Last modified: November 14, 2012 10:25 AM 
+Last modified: December 2, 2012 11:05 AM 
 
 
 [RubyMine Menubar]:images/rubymine_menubar.png "Menubar"
@@ -247,3 +246,6 @@ Last modified: November 14, 2012 10:25 AM
 [RubyMine]: http://www.jetbrains.com/ruby/
 [GitHub]: http://github.com "GitHub"
 [RVM]: http://beginrescueend.com/
+[git]:http://git-scm.com
+[svn]:http://subversion.apache.org
+[hg]:http://mercurial.selenic.com
