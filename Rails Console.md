@@ -14,5 +14,5 @@ The next two panels show the results of running the examples in [section 6.1.3]
 ![Rails console part 2](images/RailsConsoleOutput2.png)
 
 [RubyMIne]:http://www.jetbrains.com/ruby/
-[section 6.1.3]:http://ruby.railstutorial.org/chapters/modeling-users#sec:creating_user_objects
-[rails environments]:http://ruby.railstutorial.org/chapters/sign-up#sidebar:rails_environments
+[section 6.1.3]:http://ruby.railstutorial.org/chapters/modeling-users#sec-creating_user_objects
+[rails environments]:http://ruby.railstutorial.org/chapters/sign-up#sidebar-rails_environments
