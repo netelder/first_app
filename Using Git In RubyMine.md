@@ -2,56 +2,22 @@
 
 [RubyMine] handles several different version control system including [CVS], [Mercurial], [Subversion], [Perforce] and [Git].  Help can be found at the [RubyMine git reference].
 
-Here we setup a [git] repository and then create and push updates to a [GitHub] repository all inside the [RubyMine] IDE.
-<a name="git"></a>
-## Git ##
 
-<a name="gitinitial"></a>
-### Initial Setup ###
+In the [previous section] we created a [git] repository for the **first_project** and did an initial commit of files.  In this section we'll concentrate on other common [git commands].
 
-
-You can put the project under `git` from within the IDE. Select **Import into Version Control** under the **VCS** menubar item and pick **Create Git Repository**.
-
-![git init]
-
-Make sure you have the correct directory entered. 
-
-![git init select directory]
-
-In the bottom part of the [RubyMine] IDE is the version control console. This shows just how `git` was used.
-
-![git init log]
-
-<a name="gitadding"></a>
-### Adding Changes ###
-
-
-Once we have setup the initial git repository the **VCS** menubar menu selections change. Now there is a **Git** entry and we can use this to add files to the repository.  This is especially useful for adding individual files.
-
-![git add]
-
-In the bottom of the IDE you can select **Version Control** and see all the files that have been added and those that are still unversioned.  Select all the unversioned files and right click and select **Add to VCS**. 
-
-![git add all]
-
-Once all files are added you can select **Commit Changes** from the **VCS** menubar item.
-
-![git commit]
-
-Now you have another option to remove files from this commit by unchecking the appropriate box. There are a number of other options. I have unchecked **Perform code analysis** and **Check TODO (Show All)**
-
-![git commit message]
-
-The **Version Control Console** shows the result of the commit.
-
-![git commit log]
+1. [Branching](#gitbranch)
+2. [Difference](#gitdiff)
+3. [Pushing to GitHub](#github)
+4. [Pushing to Heroku](#heroku)
 
 <a name="gitbranch"></a>
 ### Creating a Branch ###
 
 To create a new branch just click on **VCS** menubar item and select **Branches**
 
-![Merge Branches](images/GitBranchMerge1.png)
+![Branch Operations](images/CreateBranch.png)
+
+    ![Merge Branches](images/GitBranchMerge1.png)
 
 Select **New Branch** from the popup window
 
@@ -70,7 +36,7 @@ RubyMine will create the new git branch and check it out.  See bottom of IDE for
 
 In git you should do your work in a branch then switch back to the master branch and merge your changes.  In my opinion this is a good idea even if you are working alone. See [Ruby on Rails Tutorial git Merge notes] and [Pro Git rebase] for more info on `merge` and the alternative `rebase`.  See [RubyMine rebase support] in their online help for 
 
-![Merge Branches](images/GitBranchMerge1.png)
+![Merge Branches](images/CreateBranch.png)
 
 Then select **master -> origin/master > Checkout** option from **Git Branches** popup menu. This will set you back on the master branch.
 
@@ -78,7 +44,8 @@ Then select **master -> origin/master > Checkout** option from **Git Branches** 
 
 Then select the **VCS** menubar item and then the **Git > Merge Changes...** dropdown menu item.
 
-![Merge1](images/GitBranchMerge3.png)
+    ![Merge1](images/GitBranchMerge3.png)
+![Merge](images/MergeBranch.png)
 
 This brings up a dialog box showing the current branch and a list of branches to merge.  You can hold cursor over different strategy opptions to get a short description.
 
@@ -95,7 +62,7 @@ I find it useful to create a branch, make my changes then merge back into master
 
 Deleting a branch is very simple.  Just click on **VCS** menubar item then select **Git > Branches**. 
 
-![Delete git branch] (images/DeletingBranchStep1.png)
+![Delete git branch] (images/CreateBranch.png)
 
 You will be presented a list of branches.  In this case we want to remove the `static-pages`.
 
@@ -110,7 +77,8 @@ You will be presented a list of branches.  In this case we want to remove the `s
 
 It is possible to create new repositories on your [GitHub] account. Under the **VCS** menubar item select **Import into Version Control >> Share project on GitHub**
 
-![github share]
+    ![github share]
+![Share on GitHub](images/GitHubShare.png)
 
 You will then be prompted for your [GitHub] password.
 
@@ -142,7 +110,7 @@ It will then do the first push of the project up to [GitHub] and the transaction
 ### Pushing to Heroku ###
 
 
-
+[previous section]:https://github.com/perfectionist/sample_project/wiki/Ruby-Version-Manager-in-Mountain-Lion#wiki-git
 [RVM]: http://beginrescueend.com/ "Ruby Version Manager"
 [Ruby]: http://www.ruby-lang.org/
 [install RVM]: https://rvm.beginrescueend.com/rvm/install/
@@ -159,6 +127,7 @@ It will then do the first push of the project up to [GitHub] and the transaction
 [Ruby on Rails Tutorial git Merge notes]:http://ruby.railstutorial.org/chapters/beginning#sec:git_merge
 [Pro Git rebase]:http://progit.org/book/ch3-6.html
 [RubyMine rebase support]:http://www.jetbrains.com/ruby/webhelp/rebasing-branches.html
+[git commands]:http://git-scm.com/docs
 
 [git init]:images/first_project_git_init.png
 [git init select directory]:images/first_project_git_init_select.png
