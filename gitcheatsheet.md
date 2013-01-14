@@ -18,18 +18,19 @@ To create a repository from existing directory.
 
 ### Existing Repository ###
 
-    git clone <repo>
+git clone &lt;repo&gt;
 
-`clone` the repository specified by `<repo>`, this is similar to `checkout` in
-some other version control systems such as Subversion and CVS. **Note** `git`
+:  **clone** the repository specified by `<repo>`, this is similar to `checkout` in
+some other version control systems such as Subversion and CVS. 
+>**Note** `git`
  has a `checkout` which is different than `clone`.
 
 ## Configuration ##
 
-`git config -e [--global]`
+git config -e [--global]
 :  edit the `.git/config` [or `~/.gitconfig`] file in your `$EDITOR` or in the editor specified in your global git preferences (this will make the editor sublime text 2)
 
-        $ git config --global core.editor "subl -w"  
+		$ git config --global core.editor "subl -w"
 
   to set your name and email for commit messages
 
@@ -669,3 +670,5 @@ Change author for all commits with given name
           else
                   git commit-tree "$@";
           fi' HEAD
+
+Test of page link [[extras]]
