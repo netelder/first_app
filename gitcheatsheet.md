@@ -2,7 +2,12 @@
 
 Based on [http://cheat.errtheblog.com/s/git/](http://cheat.errtheblog.com/s/git/)
 
-[[_TOC_]]
+$2^2$
+
+$$2^2$$
+$2^2$
+
+$$2^2$$
 
 ## Setup ##
 
