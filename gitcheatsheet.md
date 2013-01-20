@@ -1,8 +1,8 @@
-CSS: https://dl.dropbox.com/u/12643381/styles/github.css
-
 # GIT Cheatsheet #
 
 Based on [http://cheat.errtheblog.com/s/git/](http://cheat.errtheblog.com/s/git/)
+
+[[_TOC_]]
 
 ## Setup ##
 
