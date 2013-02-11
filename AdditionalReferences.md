@@ -8,5 +8,6 @@ These are gleaned from the [Ruby on Rails Tutorial]  with some additions of my o
 * [*The Rails View*](http://pragprog.com/book/warv/the-rails-view) by John Athayde and Bruce Williams
 * [*Pragmatic Guide to Sass*](http://pragprog.com/book/pg_sass/pragmatic-guide-to-sass) by Hampton Catlin and Michael Lintorn Catlin
 * [*Rails 3 in Action*](http://manning.com/katz/) by Ryan Bigg and Yehuda Katz
+* [*Ruby on Rails Guides (v3.2.9)*](http://guides.rubyonrails.org)
 
 [Ruby on Rails Tutorial]: http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2 "Second Edition"
