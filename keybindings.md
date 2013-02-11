@@ -1,3 +1,5 @@
+css:   https://dl.dropbox.com/u/12643381/styles/github5.css
+
 # Add Keybindings #
 
 VIM Plugin http://plugins.intellij.net/plugin/?ruby&id=164
@@ -124,18 +126,25 @@ Conflicts!
 
 **Simple Table**
 
-| Item   | Description             | Unit<br/>Price | Quantity |   Total |  
-| :----- | :---------------------- | -------------: | :------: | ------: |  
-| Widget | The latest widget model |          $3.01 |    100   | $301.00 |  
+| Item 	| Description 	| Unit<br/>Price 	| Quantity 	|   Total 	|  
+| :----- 	| :---------------------- 	| -------------: 	| :------: 	| ------: 	|  
+| Widget 	| The latest widget model 	|          $3.01 	|    100 	| $301.00 	|  
 [Simple Table with break in header][simpletable]
 
 **Spanning a Column**
 
-| Item   | Description             | Unit Price     | Quantity |   Total |  
-| :----- | :---------------------- | -------------: | :------: | ------: |  
-| Widget | The latest widget model |          $3.01 |    100   | $301.00 |  
-| Gizmo  | The fastest gizmo       |         $30.00 |      1   |  $30.00 |
-|**Total** |||| **$331.00**|
+| Item 	| Description 	| Unit Price 	| Quantity 	|   Total 	|  
+| :----- 	| :---------------------- 	| -------------: 	| :------: 	| ------: 	|  
+| Widget 	| The latest widget model 	|          $3.01 	|    100 	| $301.00 	|  
+| Gizmo 	| The fastest gizmo 	|         $30.00 	|      1 	|  $30.00 	|
+| **Total** 	|||| **$331.00**	|
 [Table with spanning in last row]
 
-|             |          Grouping           |||     First Header  | Second Header | Third Header ||      ------------ | :-----------: | -----------: ||   Content       | *Long Cell* |||   Content       | **Cell** |  Cell ||   New section   | More | Data ||   And more      |  And More ||[Table with multiple headers and spanning]
+| 	|          Grouping 	||
+|     First Header 	| Second Header 	| Third Header 	|
+|      ------------ 	| :-----------: 	| -----------: 	|
+|   Content 	| *Long Cell* 	||
+|   Content 	| **Cell** 	|  Cell 	|
+|   New section 	| More 	| Data 	|
+|   And more 	|  And More 	||
+[Table with multiple headers and spanning]
